@@ -8,6 +8,8 @@
     <meta property="og:description" content="Prove your expertise in Harry Potter, LOTR, Star Wars, and more!">
     <title>NerdQuiz - Ultimate Fandom Challenge</title>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=MedievalSharp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/8505d8d3fd.js" crossorigin="anonymous" defer></script>
     <style>
         /* ===== CSS Variables ===== */
         :root {
@@ -274,6 +276,34 @@
             filter: grayscale(0);
             opacity: 1;
         }
+
+        .footer .socials {
+            display: inline-block; 
+            margin: 0 10px; 
+        }
+
+        .footer .socials a {
+            color: #fff; 
+            font-size: 24px; 
+            transition: color 0.3s ease; 
+            text-decoration: none; 
+        }
+
+        .footer .socials a:hover {
+            color: rgba(255, 217, 0, 0.521);
+        }
+
+        .footer .socials a i {
+            display: inline-block; 
+            vertical-align: middle; 
+        }
+
+        /* Responsive design for smaller screens */
+        @media (max-width: 600px) {
+            .footer .socials a {
+                font-size: 20px; 
+            }
+        }
     </style>
 </head>
 <body>
@@ -301,9 +331,13 @@
                     <span>Licensed under GNU GPL v3.0</span>
                 </a>
             </div>
+            <div class="socials">
+                <a href="https://github.com/Tristan-Phillips/nerdquiz.fun" target="_blank" rel="noopener noreferrer" aria-label="Github">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
         </footer>
     </div>
-
     <script>
         // Sort quizzes with active first, then alphabetical
         function sortQuizzes(quizzes) {
