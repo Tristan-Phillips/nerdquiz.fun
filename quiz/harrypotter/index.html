@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="public/style/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=MedievalSharp&display=swap" rel="stylesheet">
     <style>
-        /* Add this to your CSS */
         .home-btn {
-            position: absolute;
+            position: fixed;
             top: 20px;
             right: 20px;
             background: #2c3e50;
@@ -21,12 +20,48 @@
             cursor: pointer;
             transition: all 0.3s ease;
             font-family: 'MedievalSharp', cursive;
+            z-index: 1000;
         }
 
-        .home-btn:hover {
-            background: #34495e;
-            transform: scale(1.05);
-            box-shadow: 0 0 10px rgba(255,215,0,0.5);
+        @media (max-width: 768px) {
+            .home-btn {
+                top: auto;
+                bottom: 20px;
+                right: 50%;
+                transform: translateX(50%);
+                width: 90%;
+                max-width: 300px;
+                text-align: center;
+                padding: 12px 20px;
+                background: rgba(44, 62, 80, 0.95);
+                backdrop-filter: blur(3px);
+                /* Disable hover effects on mobile */
+                transform: translateX(50%) !important;
+            }
+
+            @media (hover: none) {
+                .home-btn:hover {
+                    transform: translateX(50%) scale(1) !important;
+                    box-shadow: none;
+                    background: rgba(44, 62, 80, 0.95);
+                }
+            }
+        }
+
+        @media (max-width: 480px) {
+            .home-btn {
+                bottom: 10px;
+                padding: 10px 15px;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (hover: hover) {
+            .home-btn:hover {
+                background: #34495e;
+                transform: scale(1.05);
+                box-shadow: 0 0 10px rgba(255,215,0,0.5);
+            }
         }
     </style>
 </head>
