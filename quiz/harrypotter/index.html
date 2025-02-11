@@ -7,6 +7,28 @@
     <title>Harry Potter Quiz</title>
     <link rel="stylesheet" href="public/style/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=MedievalSharp&display=swap" rel="stylesheet">
+    <style>
+        /* Add this to your CSS */
+        .home-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #2c3e50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            border: 2px solid gold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'MedievalSharp', cursive;
+        }
+
+        .home-btn:hover {
+            background: #34495e;
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(255,215,0,0.5);
+        }
+    </style>
 </head>
 <body>
     <div id="loading">
@@ -43,6 +65,7 @@
 
         <!-- Quiz Screen -->
         <div id="quiz-screen" class="hidden">
+            <button class="home-btn" onclick="window.location.href='/'">🏠 Return to Great Hall</button>
             <div class="quiz-header">
                 <div class="progress">
                     🔮 <span id="current-count">0</span>
