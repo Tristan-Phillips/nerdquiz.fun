@@ -190,7 +190,6 @@ button:hover:not(:disabled) {
     transition: all 0.3s ease;
     font-family: 'MedievalSharp', cursive;
     z-index: 1000;
-    transform: none !important;
 }
 
 /* Desktop hover effects */
@@ -204,35 +203,42 @@ button:hover:not(:disabled) {
 
 @media (max-width: 768px) {
     .home-btn {
-        top: auto !important;
-        bottom: 20px !important;
-        right: 50% !important;
-        left: 50% !important;
-        transform: translateX(-50%) !important;
-        width: 90%;
-        max-width: 300px;
-        margin: 0 auto;
-        background: rgba(44, 62, 80, 0.95);
-        backdrop-filter: blur(3px);
-        pointer-events: all;
+        position: relative;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+        transform: none !important;
+        width: 100%;
+        max-width: none;
+        margin: 20px 0 0;
+        border-radius: 10px;
+        background: #2c3e50;
+        backdrop-filter: none;
     }
 
-    /* Force disable all hover effects on mobile */
-    .home-btn:hover {
-        transform: translateX(-50%) scale(1) !important;
-        box-shadow: none !important;
-        background: rgba(44, 62, 80, 0.95) !important;
-    }
-
-    /* Add padding to prevent content overlap */
+    /* Remove container padding */
     .container {
-        padding-bottom: 80px !important;
+        padding-bottom: 20px !important;
+    }
+
+    /* Stack controls vertically */
+    .controls {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Add margin above home button */
+    .home-btn {
+        order: 3;
+        margin-top: 30px;
     }
 }
 
 @media (max-width: 480px) {
     .home-btn {
-        bottom: 10px !important;
         padding: 12px 15px;
+        font-size: 0.9rem;
     }
 }
