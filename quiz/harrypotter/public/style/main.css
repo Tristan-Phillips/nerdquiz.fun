@@ -176,3 +176,63 @@ button:hover:not(:disabled) {
         margin: 10px 0;
     }
 }
+
+.home-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid gold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'MedievalSharp', cursive;
+    z-index: 1000;
+    transform: none !important;
+}
+
+/* Desktop hover effects */
+@media (hover: hover) {
+    .home-btn:hover {
+        background: #34495e;
+        transform: scale(1.05);
+        box-shadow: 0 0 10px rgba(255,215,0,0.5);
+    }
+}
+
+@media (max-width: 768px) {
+    .home-btn {
+        top: auto !important;
+        bottom: 20px !important;
+        right: 50% !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        width: 90%;
+        max-width: 300px;
+        margin: 0 auto;
+        background: rgba(44, 62, 80, 0.95);
+        backdrop-filter: blur(3px);
+        pointer-events: all;
+    }
+
+    /* Force disable all hover effects on mobile */
+    .home-btn:hover {
+        transform: translateX(-50%) scale(1) !important;
+        box-shadow: none !important;
+        background: rgba(44, 62, 80, 0.95) !important;
+    }
+
+    /* Add padding to prevent content overlap */
+    .container {
+        padding-bottom: 80px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-btn {
+        bottom: 10px !important;
+        padding: 12px 15px;
+    }
+}
