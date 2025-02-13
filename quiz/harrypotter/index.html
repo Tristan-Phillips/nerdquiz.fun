@@ -1,80 +1,94 @@
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Harry Potter Quiz</title>
-    <link rel="stylesheet" href="../../public/style/quiz.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=MedievalSharp&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../../public/style/quiz.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=MedievalSharp&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <div id="loading">
-        <div class="spinner"></div>
-        <p>Preparing magical quiz...</p>
+      <div class="spinner"></div>
+      <p>Preparing magical quiz...</p>
     </div>
 
+    <button
+      class="floating-home-btn"
+      onclick="window.location.href='/'"
+      title="Return to Great Hall"
+      aria-label="Return to Home"
+    >
+      <span class="hover-text">🏠</span>
+    </button>
+
     <div class="container">
-        <!-- Setup Screen -->
-        <div id="setup-screen">
-            <h1>🧙 𝓗𝓪𝓻𝓻𝔂 𝓟𝓸𝓽𝓽𝓮𝓻 𝓠𝓾𝓲𝔃 ✨</h1>
-            <div class="settings">
-                <div class="setting">
-                    <label>Number of Questions:</label>
-                    <select id="question-limit">
-                        <option value="0">Infinite</option>
-                        <option value="5">5</option>
-                        <option value="10">10</option>
-                        <option value="15">15</option>
-                        <option value="30">30</option>
-                        <option value="50">50</option>
-                        <option value="100">100</option>
-                    </select>
-                </div>
-                <div class="setting">
-                    <label>
-                        <input type="checkbox" id="autoplay-checkbox" checked>
-                        Auto-play Questions
-                    </label>
-                </div>
-                <button id="start-btn" class="gold-btn">Start Quiz</button>
-            </div>
+      <!-- Setup Screen -->
+      <div id="setup-screen">
+        <h1>🧙 𝓗𝓪𝓻𝓻𝔂 𝓟𝓸𝓽𝓽𝓮𝓻 𝓠𝓾𝓲𝔃 ✨</h1>
+        <div class="settings">
+          <div class="setting">
+            <label>Number of Questions:</label>
+            <select id="question-limit">
+              <option value="0">Infinite</option>
+              <option value="5">5</option>
+              <option value="10">10</option>
+              <option value="15">15</option>
+              <option value="30">30</option>
+              <option value="50">50</option>
+              <option value="100">100</option>
+            </select>
+          </div>
+          <div class="setting">
+            <label>
+              <input type="checkbox" id="autoplay-checkbox" checked />
+              Auto-play Questions
+            </label>
+          </div>
+          <button id="start-btn" class="gold-btn">Start Quiz</button>
+        </div>
+      </div>
+
+      <!-- Quiz Screen -->
+      <div id="quiz-screen" class="hidden">
+        <div class="quiz-header">
+          <div class="progress">
+            🔮 <span id="current-count">0</span>
+            <span id="total-questions">/ ∞</span>
+          </div>
+          <div id="timer-bar-container">
+            <div id="timer-bar"></div>
+          </div>
         </div>
 
-        <!-- Quiz Screen -->
-        <div id="quiz-screen" class="hidden">
-            <div class="quiz-header">
-                <div class="progress">
-                    🔮 <span id="current-count">0</span>
-                    <span id="total-questions">/ ∞</span>
-                </div>
-                <div id="timer-bar-container">
-                    <div id="timer-bar"></div>
-                </div>
-            </div>
-
-            <div class="question-container">
-                <div class="parchment-box">
-                    <p id="question-text"></p>
-                </div>
-                <div id="answer-box" class="parchment-box hidden">
-                    <p id="answer-text"></p>
-                    <a id="source-link" target="_blank" class="source-icon">
-                        <i class="fas fa-question-circle"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="controls">
-                <button id="reveal-btn" class="silver-btn">✨ Reveal Answer</button>
-                <button id="next-btn" class="gold-btn hidden">⏭ Next Question</button>
-                <button id="pause-btn" class="silver-btn">⏸ Pause</button>
-                <button class="home-btn" onclick="window.location.href='/'">🏠 Return to Great Hall</button>
-            </div>
+        <div class="question-container">
+          <div class="parchment-box">
+            <p id="question-text"></p>
+          </div>
+          <div id="answer-box" class="parchment-box hidden">
+            <p id="answer-text"></p>
+            <a id="source-link" target="_blank" class="source-icon">
+              <i class="fas fa-question-circle"></i>
+            </a>
+          </div>
         </div>
+
+        <div class="controls">
+          <button id="reveal-btn" class="silver-btn">✨ Reveal Answer</button>
+          <button id="next-btn" class="gold-btn hidden">⏭ Next Question</button>
+          <button id="pause-btn" class="silver-btn">⏸ Pause</button>
+        </div>
+      </div>
     </div>
 
     <script src="../../public/script/quiz.js"></script>
-</body>
+  </body>
 </html>

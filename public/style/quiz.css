@@ -147,3 +147,80 @@
   .hidden {
     display: none !important;
   }
+
+  .floating-home-btn {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    background: var(--gold);
+    color: var(--text-dark);
+    border: 2px solid var(--primary);
+    border-radius: 50%;
+    padding: 12px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+}
+
+.floating-home-btn:hover {
+    background: var(--primary);
+    color: var(--parchment);
+    transform: scale(1.05);
+    border-color: var(--gold);
+    box-shadow: 0 4px 12px rgba(174, 0, 1, 0.3);
+}
+
+.floating-home-btn i {
+    font-size: 1.6rem;
+    transition: transform 0.3s ease;
+}
+
+.floating-home-btn:hover i {
+    transform: rotate(-20deg) scale(1.1);
+}
+
+.floating-home-btn::after {
+    content: "Return to the Great Hall";
+    position: absolute;
+    left: -10px; /* Adjusted from right positioning */
+    transform: translateX(-100%) translateY(-50%);
+    top: 50%;
+    background: var(--primary);
+    color: var(--parchment);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--gold);
+    font-family: 'MedievalSharp', cursive;
+    letter-spacing: 0.05em;
+    min-width: 140px; /* Ensures full text width */
+    text-align: center;
+}
+
+.floating-home-btn:hover::after {
+    opacity: 1;
+}
+
+@media (max-width: 600px) {
+    .floating-home-btn::after {
+        left: 50%;
+        transform: translateX(-50%) translateY(0);
+        top: calc(100% + 10px);
+        background: var(--parchment);
+        color: var(--text-dark);
+        content: "Return to Great Hall"; /* Full text on mobile */
+        min-width: 160px; /* More space for mobile */
+    }
+}
