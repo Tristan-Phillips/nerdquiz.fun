@@ -149,14 +149,14 @@ class Quiz {
 
     playQuestionAudio() {
         this.stopAudio();
-        const questionAudioPath = `public/audio/question/${this.currentQuestion.id}.mp3`;
+        const questionAudioPath = `public/audio/questions/${this.currentQuestion.id}.mp3`;
         this.currentAudio = new Audio(questionAudioPath);
         this.currentAudio.play().catch(() => {});
     }
 
     playAnswerAudio() {
         this.stopAudio();
-        const answerAudioPath = `public/audio/answer/${this.currentQuestion.id}.mp3`;
+        const answerAudioPath = `public/audio/answers/${this.currentQuestion.id}.mp3`;
         this.currentAudio = new Audio(answerAudioPath);
         this.currentAudio.play().catch(() => {});
     }

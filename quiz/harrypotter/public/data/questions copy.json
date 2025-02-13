@@ -245,6 +245,20 @@
     "httpsource": "#"
   },
   {
+    "question": "What is the name of the group of students led by Draco Malfoy tasked with enforcing the will of the Inquisitorial Squad?",
+    "answer": "Inquisitorial Squad",
+    "id": "563b2f6b60b55f0b037bcde6bfb1b636",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who was the previous owner of Fawkes, the phoenix?",
+    "answer": "Albus Dumbledore",
+    "id": "f4506fb1d8bb641be97ea28cccc3e68c",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
     "question": "What is the name of the spell used to repel Dementors?",
     "answer": "Expecto Patronum",
     "id": "bf7fed9d9b87539ae216b53efcbfe22c",
@@ -255,6 +269,13 @@
     "question": "What is the name of the potion that allows a wizard to survive underwater?",
     "answer": "Gillyweed is used as an ingredient, but the potion itself isn't named; Gillyweed is eaten directly.",
     "id": "a08fa3aaf2621243703d6a936f8e66b4",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who was the Half-Blood Prince before Severus Snape took the title for himself?",
+    "answer": "The title 'Half-Blood Prince' was created by Severus Snape himself.",
+    "id": "d67dcb2eb7d81151be110316f8cb9c4b",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
@@ -455,6 +476,13 @@
     "httpsource": "#"
   },
   {
+    "question": "What does the spell 'Rictusempra' do to its target?",
+    "answer": "Causes the target to laugh uncontrollably",
+    "id": "2d3447cfbe3ec0abb9feb820fd685cad",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
     "question": "What is the name of Aragog's wife?",
     "answer": "Mosag",
     "id": "1a9c8b40028dfe820126f378f9db6995",
@@ -560,6 +588,20 @@
     "httpsource": "#"
   },
   {
+    "question": "What is the name of the dragon that guards the Lestrange vault in Gringotts?",
+    "answer": "Ukrainian Ironbelly",
+    "id": "36d059840bf6d69384257cb02338f082",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the name of the magical item that gives its owner the ability to speak Parseltongue?",
+    "answer": "There is no magical item specifically for this; Parseltongue is an inherited ability, but Tom Riddle's diary allowed Harry to understand it.",
+    "id": "ee4e099dcb39941c46d531f294bdbdfe",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
     "question": "Which character replaces Cornelius Fudge as Minister for Magic?",
     "answer": "Rufus Scrimgeour",
     "id": "f8a80e26502a3b95439d9ae9f8a2f1b1",
@@ -588,6 +630,20 @@
     "httpsource": "#"
   },
   {
+    "question": "What is the name of the spell Hermione uses to free Ron from the brain in the Department of Mysteries?",
+    "answer": "Relashio",
+    "id": "a1fb153a6643fc4024a764283c0246ff",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the name of the magical device that reveals the location of a person within Hogwarts?",
+    "answer": "The Marauder's Map",
+    "id": "cf8856d98598d00d95d43d758becbfbb",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
     "question": "What is the name of the centaur who opposed Firenze's decision to aid Harry Potter?",
     "answer": "Bane",
     "id": "498aee480e7ae7bb30a2037b5e978145",
@@ -602,9 +658,30 @@
     "httpsource": "#"
   },
   {
+    "question": "What is the name of the book that Tom Riddle uses to control Ginny Weasley in the Chamber of Secrets?",
+    "answer": "Tom Riddle's Diary",
+    "id": "bbaf91c961ca346f2d83cf01e0fda142",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
     "question": "What is the name of the tree on the Hogwarts grounds planted to protect Remus Lupin during his transformations?",
     "answer": "The Whomping Willow",
     "id": "e1822f8f1bc6cd1718755b9e41275355",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the full name of the witch who was the editor of The Quibbler?",
+    "answer": "Xenophilius Lovegood (though he is the editor, not a witch, the question is trickily phrased)",
+    "id": "90dac7085278ae8a385075d18ecd951b",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the name of the charm that creates a band of golden light to bind an opponent?",
+    "answer": "Incarcerous",
+    "id": "3df74570f359c3aa4a8e072ab512858d",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
