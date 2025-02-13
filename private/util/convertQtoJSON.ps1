@@ -1,35 +1,35 @@
 # Convert-HPQuiz.ps1
-$inputFile = "questions.txt"
+$inputFile = "questions.csv"
 $outputFile = "questions.json"
-
-$questions = @()
 
 # Create MD5 hasher
 $md5 = [System.Security.Cryptography.MD5]::Create()
 
-Get-Content $inputFile | ForEach-Object {
-    if ($_ -match "::") {
-        $question, $answer = $_ -split "::", 2
+# Import CSV data
+$csvData = Import-Csv -Path $inputFile
 
-        # Trim whitespace
-        $question = $question.Trim()
-        $answer = $answer.Trim()
+$questions = @()
 
-        # Generate hash from question text
-        $bytes = [System.Text.Encoding]::UTF8.GetBytes($question)
-        $hashBytes = $md5.ComputeHash($bytes)
-        $questionId = [System.BitConverter]::ToString($hashBytes).Replace("-", "").ToLower()
+foreach ($item in $csvData) {
+    $question = $item.question.Trim()
+    $answer = $item.answer.Trim()
+    $difficulty = $item.difficulty.Trim()
+    $httpsource = $item.httpsource.Trim()
 
-        # Create question object
-        $questions += [PSCustomObject]@{
-            question   = $question
-            answer     = $answer
-            id         = $questionId
-            difficulty = "unmarked"
-            httpsource = "#"
-        }
+    # Generate hash from question text
+    $bytes = [System.Text.Encoding]::UTF8.GetBytes($question)
+    $hashBytes = $md5.ComputeHash($bytes)
+    $questionId = [System.BitConverter]::ToString($hashBytes).Replace("-", "").ToLower()
+
+    # Create question object
+    $questions += [PSCustomObject]@{
+        question   = $question
+        answer     = $answer
+        id         = $questionId
+        difficulty = $difficulty
+        httpsource = $httpsource
     }
-} 
+}
 
 # Convert to JSON
 $json = $questions | ConvertTo-Json -Depth 3

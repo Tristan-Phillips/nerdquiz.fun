@@ -37,7 +37,8 @@ class Quiz {
         const response = await fetch("public/data/questions.json");
         if (!response.ok) throw new Error("Failed to load questions");
         const data = await response.json();
-        this.questions = data.questions;
+        // Changed from data.questions to direct data assignment
+        this.questions = data;
     }
 
     setupEventListeners() {
