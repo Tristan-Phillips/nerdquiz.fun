@@ -46,6 +46,9 @@ class Quiz {
         document.getElementById("reveal-btn").addEventListener("click", () => this.showAnswer());
         document.getElementById("next-btn").addEventListener("click", () => this.nextQuestion(false));
         document.getElementById("pause-btn").addEventListener("click", () => this.togglePause());
+        document.getElementById('restart-btn').addEventListener('click', () => {
+            location.reload();
+          });
         document.getElementById("autoplay-checkbox").addEventListener("change", (e) => {
             this.autoplay = e.target.checked;
         });
@@ -58,6 +61,7 @@ class Quiz {
 
         document.getElementById("setup-screen").classList.add("hidden");
         document.getElementById("quiz-screen").classList.remove("hidden");
+        document.getElementById("restart-btn").classList.remove("hidden");
 
         ["reveal-btn", "pause-btn"].forEach((id) => {
             document.getElementById(id).disabled = false;

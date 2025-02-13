@@ -5,61 +5,57 @@
     --background: #1a1a1a;
     --text-dark: #3d352b;
     --border: rgba(174, 0, 1, 0.2);
-  }
-  
-  /* Base Layout */
-  body {
+}
+
+body {
     background: var(--background);
     font-family: 'Cinzel', serif;
     line-height: 1.6;
     color: var(--text-dark);
-  }
-  
-  .container {
+}
+
+.container {
     max-width: 800px;
     margin: 2rem auto;
     padding: 2rem;
-  }
-  
-  /* Content Structure */
-  #setup-screen, 
-  #quiz-screen {
+}
+
+#setup-screen, 
+#quiz-screen {
     background: var(--parchment);
     border-radius: 12px;
     padding: 2rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-  
-  .setting {
+}
+
+.setting {
     margin: 1.5rem 0;
     padding: 1rem;
     border-left: 3px solid var(--gold);
-  }
-  
-  .controls {
+}
+
+.controls {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     margin-top: 2rem;
-  }
-  
-  /* Typography */
-  h1 {
+}
+
+h1 {
     font-family: 'MedievalSharp', cursive;
     color: var(--primary);
     text-align: center;
     margin-bottom: 2rem;
     font-size: 2.2rem;
-  }
-  
-  label {
+}
+
+label {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: bold;
-  }
-  
-  /* Interactive Elements */
-  select, button {
+}
+
+select, button {
     width: 100%;
     padding: 0.8rem;
     border: 2px solid var(--border);
@@ -67,88 +63,85 @@
     background: white;
     font-family: inherit;
     transition: all 0.2s ease;
-  }
-  
-  button {
+}
+
+button {
     background: var(--gold);
     color: var(--text-dark);
     border-color: var(--gold);
     cursor: pointer;
-  }
-  
-  button:disabled {
+}
+
+button:disabled {
     opacity: 0.7;
     cursor: not-allowed;
-  }
-  
-  button:hover:not(:disabled) {
+}
+
+button:hover:not(:disabled) {
     transform: translateY(-1px);
     box-shadow: 0 2px 8px rgba(174, 0, 1, 0.1);
-  }
-  
-  /* Progress & Status */
-  .progress {
+}
+
+.progress {
     text-align: center;
     font-size: 1.1rem;
     color: var(--primary);
     margin: 1rem 0;
-  }
-  
-  #timer-bar-container {
+}
+
+#timer-bar-container {
     height: 6px;
     background: rgba(174, 0, 1, 0.1);
     border-radius: 3px;
     margin: 1rem 0;
-  }
-  
-  #timer-bar {
+}
+
+#timer-bar {
     height: 100%;
     background: linear-gradient(90deg, var(--gold), var(--primary));
     transition: width 1s linear;
-  }
-  
-  /* Question/Answer Cards */
-  .parchment-box {
+}
+
+.parchment-box {
     background: white;
     padding: 1.5rem;
     border-radius: 8px;
     margin: 1rem 0;
     border: 1px solid var(--border);
     position: relative;
-  }
-  
-  #source-link {
+}
+
+#source-link {
     position: absolute;
     bottom: 0.5rem;
     right: 0.5rem;
     color: var(--text-dark);
     opacity: 0.7;
-  }
-  
-  /* Responsive Adjustments */
-  @media (max-width: 600px) {
-    .container {
-      padding: 1rem;
-    }
-  
-    h1 {
-      font-size: 1.8rem;
-    }
-  
-    .controls {
-      grid-template-columns: 1fr;
-    }
-  
-    button, select {
-      padding: 0.7rem;
-    }
-  }
-  
-  .hidden {
-    display: none !important;
-  }
+}
 
-  .floating-home-btn {
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .controls {
+        grid-template-columns: 1fr;
+    }
+
+    button, select {
+        padding: 0.7rem;
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
+.floating-home-btn {
     position: fixed;
     top: 25px;
     right: 25px;
@@ -169,17 +162,16 @@
     font-family: 'Cinzel', serif;
 }
 
+#restart-btn {
+    top: 80px;
+}
+
 .floating-home-btn:hover {
     background: var(--primary);
     color: var(--parchment);
     transform: scale(1.05);
     border-color: var(--gold);
     box-shadow: 0 4px 12px rgba(174, 0, 1, 0.3);
-}
-
-.floating-home-btn i {
-    font-size: 1.6rem;
-    transition: transform 0.3s ease;
 }
 
 .floating-home-btn:hover i {
@@ -189,7 +181,7 @@
 .floating-home-btn::after {
     content: "Return to the Great Hall";
     position: absolute;
-    left: -10px; /* Adjusted from right positioning */
+    left: -10px;
     transform: translateX(-100%) translateY(-50%);
     top: 50%;
     background: var(--primary);
@@ -204,13 +196,10 @@
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     border: 1px solid var(--gold);
     font-family: 'MedievalSharp', cursive;
-    letter-spacing: 0.05em;
-    min-width: 140px; /* Ensures full text width */
-    text-align: center;
 }
 
-.floating-home-btn:hover::after {
-    opacity: 1;
+#restart-btn::after {
+    content: "Restart Quiz";
 }
 
 @media (max-width: 600px) {
@@ -220,7 +209,10 @@
         top: calc(100% + 10px);
         background: var(--parchment);
         color: var(--text-dark);
-        content: "Return to Great Hall"; /* Full text on mobile */
-        min-width: 160px; /* More space for mobile */
+        content: "Return to Great Hall";
+    }
+
+    #restart-btn::after {
+        content: "Restart Quiz";
     }
 }
