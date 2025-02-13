@@ -126,3 +126,21 @@ What is the name of the magical creature that resembles a black dog and is consi
 What is the name of the shop where Harry buys his wand?::Ollivanders
 What is the name of the magical prison that Grindelwald is imprisoned in?::Nurmengard
 What is the name of the plant that when matured, releases spores that can cause memory loss?::Leaping Toadstools
+What is the name of the witch who was the Headmistress of Beauxbatons Academy of Magic during the Triwizard Tournament?::Madame Olympe Maxime
+What is the incantation for the spell that Hermione uses to make her bag have an undetectable extension charm?::There is no specific incantation mentioned; Hermione uses an Undetectable Extension Charm.
+What is the name of the wizard who created the first Philosopher’s Stone?::Nicolas Flamel
+What is the exact date of the final duel between Harry and Voldemort at the Battle of Hogwarts?::May 2, 1998
+Which phoenix’s tail feather cores both Harry’s and Voldemort’s wands?::Fawkes
+What is the full name of the collector who owned Helga Hufflepuff’s cup before Voldemort stole it?::Hepzibah Smith
+What is the Latin motto inscribed on the Hogwarts crest, and what is its English translation?::Draco Dormiens Nunquam Titillandus ("Never tickle a sleeping dragon")
+How many Knuts are equivalent to one Galleon in British wizarding currency?::493 (29 Knuts/Sickle × 17 Sickles/Galleon)
+What incantation does Snape invent to hoist a victim upside-down by their ankle?::Levicorpus
+Which breed of dragon did Fleur Delacour face in the Triwizard Tournament’s first task?::Welsh Green
+What spell creates a fiery whip-like rope to bind enemies, used by Hermione in Deathly Hallows?::Incarcerous
+What was the alias given to Hermione’s parents after she modified their memories?::Monica and Wendell Wilkins
+What item did Dumbledore bequeath to Ron Weasley in his will?::The Deluminator
+Which spell counteracts Alohomora by magically locking doors?::Colloportus
+Who was the Seeker for the Irish National Quidditch team during the 1994 World Cup?::Aidan Lynch
+What spell did Hermione use to create a protective boundary around their camp in Deathly Hallows?::Salvio Hexia
+Which witch introduced the Werewolf Code of Conduct to the Wizengamot in 1637?::Elfrida Clagg
+What is the name of the Healer who treated Arthur Weasley after Nagini’s attack in Order of the Phoenix?::Hippocrates Smethwyck

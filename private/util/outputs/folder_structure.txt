@@ -1,0 +1,42 @@
+Folder PATH listing for volume WINDOWS
+Volume serial number is 0D91-10D3
+C:\USERS\T\DESKTOP\NERDQUIZFUN\NERDQUIZ.FUN
+ª   CNAME
+ª   index.html
+ª   LICENSE
+ª   README.md
+ª   
++---private
+ª   +---util
+ª       ª   convertQtoJSON.ps1
+ª       ª   folderStructureToText.ps1
+ª       ª   
+ª       +---outputs
+ª               folder_structure.txt
+ª               
++---public
+ª   +---data
+ª   ª       quizzes.json
+ª   ª       
+ª   +---script
+ª   ª       home.js
+ª   ª       quiz.js
+ª   ª       
+ª   +---style
+ª           home.css
+ª           quiz.css
+ª           
++---quiz
+    +---dune
+    +---harrypotter
+    ª   ª   index.html
+    ª   ª   
+    ª   +---public
+    ª       +---audio
+    ª       ª   +---answers
+    ª       ª   +---questions
+    ª       +---data
+    ª               questions.json
+    ª               questions.txt
+    ª               
+    +---lotr

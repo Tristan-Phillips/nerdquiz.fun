@@ -205,4 +205,3 @@ class Quiz {
   
   // Initialize quiz
   new Quiz();
-  

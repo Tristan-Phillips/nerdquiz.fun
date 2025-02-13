@@ -22,9 +22,11 @@ Get-Content $inputFile | ForEach-Object {
 
         # Create question object
         $questions += [PSCustomObject]@{
-            question = $question
-            answer = $answer
-            id = $questionId
+            question   = $question
+            answer     = $answer
+            id         = $questionId
+            difficulty = "unmarked"
+            httpsource = "#"
         }
     }
 } 
