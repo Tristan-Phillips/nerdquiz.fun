@@ -6,134 +6,105 @@
         "tagline": "Test your wizarding knowledge",
         "href": "/quiz/harrypotter",
         "status": "active",
-        "fanBase": 120000000,
         "lastUpdated": "2023-08-20"
-      },
-      {
-        "id": "lotr",
-        "title": "The Lord Of The Rings",
-        "tagline": "Explore the epic tales of Middle-earth",
-        "href": "/quiz/lotr",
-        "status": "coming_soon",
-        "fanBase": 150000000,
-        "lastUpdated": null
-      },
-      {
-        "id": "dune",
-        "title": "Dune",
-        "tagline": "Venture into the world of Arrakis",
-        "href": "/quiz/dune",
-        "status": "coming_soon",
-        "fanBase": 25000000,
-        "lastUpdated": null
-      },
-      {
-        "id": "starwars",
-        "title": "Star Wars",
-        "tagline": "Test your Jedi knowledge",
-        "href": "/quiz/starwars",
-        "status": "coming_soon",
-        "fanBase": 180000000,
-        "lastUpdated": null
-      },
-      {
-        "id": "mcu",
-        "title": "MCU",
-        "tagline": "Dive into the Marvel Universe",
-        "href": "/quiz/mcu",
-        "status": "coming_soon",
-        "fanBase": 200000000,
-        "lastUpdated": null
-      },
-      {
-        "id": "gameofthrones",
-        "title": "Game of Thrones",
-        "tagline": "Explore the world of Westeros",
-        "href": "/quiz/gameofthrones",
-        "status": "coming_soon",
-        "fanBase": 90000000,
-        "lastUpdated": null
-      },
-      {
-        "id": "disney",
-        "title": "Disney Animated Classics",
-        "tagline": "Relive your favorite animated tales",
-        "href": "/quiz/disney",
-        "status": "coming_soon",
-        "fanBase": 500000000,
-        "lastUpdated": null
-      },
-      {
-        "id": "pixar",
-        "title": "Pixar Movies",
-        "tagline": "Experience the magic of Pixar",
-        "href": "/quiz/pixar",
-        "status": "coming_soon",
-        "fanBase": 300000000,
-        "lastUpdated": null
-      },
-      {
-        "id": "startrek",
-        "title": "Star Trek",
-        "tagline": "Boldly go where no one has gone before",
-        "href": "/quiz/startrek",
-        "status": "coming_soon",
-        "fanBase": 60000000,
-        "lastUpdated": null
-      },
-      {
-        "id": "doctorwho",
-        "title": "Doctor Who",
-        "tagline": "Time travel with the Doctor",
-        "href": "/quiz/doctorwho",
-        "status": "coming_soon",
-        "fanBase": 40000000,
-        "lastUpdated": null
-      },
-      {
-        "id": "thewitcher",
-        "title": "The Witcher",
-        "tagline": "Discover the Continent's secrets",
-        "href": "/quiz/thewitcher",
-        "status": "coming_soon",
-        "fanBase": 35000000,
-        "lastUpdated": null
-      },
-      {
-        "id": "dccomics",
-        "title": "DC Comics",
-        "tagline": "Enter the world of superheroes and villains",
-        "href": "/quiz/dccomics",
-        "status": "coming_soon",
-        "fanBase": 80000000,
-        "lastUpdated": null
-      },
-      {
-        "id": "mythology",
-        "title": "Mythology",
-        "tagline": "Explore ancient myths and legends",
-        "href": "/quiz/mythology",
-        "status": "coming_soon",
-        "fanBase": 100000000,
-        "lastUpdated": null
       },
       {
         "id": "videogames",
         "title": "Video Games",
         "tagline": "Level up your gaming knowledge",
         "href": "/quiz/videogames",
-        "status": "coming_soon",
-        "fanBase": 3000000000,
-        "lastUpdated": null
+        "status": "coming_soon"
+      },
+      {
+        "id": "lotr",
+        "title": "The Lord Of The Rings",
+        "tagline": "Explore the epic tales of Middle-earth",
+        "href": "/quiz/lotr",
+        "status": "coming_soon"
       },
       {
         "id": "avatar",
         "title": "Avatar: The Last Airbender",
         "tagline": "Master the elements",
         "href": "/quiz/avatar",
-        "status": "coming_soon",
-        "fanBase": 45000000,
-        "lastUpdated": null
+        "status": "coming_soon"
+      },
+      {
+        "id": "dccomics",
+        "title": "DC Comics",
+        "tagline": "Enter the world of superheroes and villains",
+        "href": "/quiz/dccomics",
+        "status": "coming_soon"
+      },
+      {
+        "id": "disney",
+        "title": "Disney Animated Classics",
+        "tagline": "Relive your favorite animated tales",
+        "href": "/quiz/disney",
+        "status": "coming_soon"
+      },
+      {
+        "id": "doctorwho",
+        "title": "Doctor Who",
+        "tagline": "Time travel with the Doctor",
+        "href": "/quiz/doctorwho",
+        "status": "coming_soon"
+      },
+      {
+        "id": "dune",
+        "title": "Dune",
+        "tagline": "Venture into the world of Arrakis",
+        "href": "/quiz/dune",
+        "status": "coming_soon"
+      },
+      {
+        "id": "gameofthrones",
+        "title": "Game of Thrones",
+        "tagline": "Explore the world of Westeros",
+        "href": "/quiz/gameofthrones",
+        "status": "coming_soon"
+      },
+      {
+        "id": "mcu",
+        "title": "MCU",
+        "tagline": "Dive into the Marvel Universe",
+        "href": "/quiz/mcu",
+        "status": "coming_soon"
+      },
+      {
+        "id": "mythology",
+        "title": "Mythology",
+        "tagline": "Explore ancient myths and legends",
+        "href": "/quiz/mythology",
+        "status": "coming_soon"
+      },
+      {
+        "id": "pixar",
+        "title": "Pixar Movies",
+        "tagline": "Experience the magic of Pixar",
+        "href": "/quiz/pixar",
+        "status": "coming_soon"
+      },
+      {
+        "id": "starwars",
+        "title": "Star Wars",
+        "tagline": "Test your Jedi knowledge",
+        "href": "/quiz/starwars",
+        "status": "coming_soon"
+      },
+      {
+        "id": "startrek",
+        "title": "Star Trek",
+        "tagline": "Boldly go where no one has gone before",
+        "href": "/quiz/startrek",
+        "status": "coming_soon"
+      },
+      {
+        "id": "thewitcher",
+        "title": "The Witcher",
+        "tagline": "Discover the Continent's secrets",
+        "href": "/quiz/thewitcher",
+        "status": "coming_soon"
       }
     ]
   }
