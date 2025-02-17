@@ -57,36 +57,30 @@ class Quiz {
   }
 
   setupEventListeners() {
-    // Button click handlers
     document.getElementById("start-btn").addEventListener("click", () => this.startQuiz());
     document.getElementById("reveal-btn").addEventListener("click", () => this.showAnswer());
     document.getElementById("next-btn").addEventListener("click", () => this.nextQuestion(false));
     document.getElementById("pause-btn").addEventListener("click", () => this.togglePause());
     document.getElementById("restart-btn").addEventListener("click", () => location.reload());
-
-    // Autoplay toggle
     document.getElementById("autoplay-checkbox").addEventListener("change", (e) => {
       this.autoplay = e.target.checked;
     });
-
-    // Keyboard controls
     document.addEventListener("keydown", this.handleKeyPress);
   }
 
   updateLocalizedElements() {
-    // Set general translations
     document.title = this.localize('textDefaults.titleText', 'NerdQuiz.Fun');
-  
+
     document.querySelectorAll('[data-i18n]').forEach(element => {
       const key = element.getAttribute('data-i18n');
       const text = this.localize(key);
       if (text) element.textContent = text;
     });
-  
-    // Handle quiz-specific title using CSS class selector
+
     const quizTitleKey = `quizzes.${this.quizName}.title`;
-    const quizTitle = this.localize(quizTitleKey, this.quizName.replace(/([A-Z])/g, ' $1').trim() + ' Quiz');
-  
+    const quizTitle = this.localize(quizTitleKey, 
+      `${this.quizName.replace(/([A-Z])/g, ' $1').trim()} Quiz`);
+
     document.querySelectorAll('.quiz-title').forEach(el => {
       el.textContent = quizTitle;
     });
@@ -105,7 +99,6 @@ class Quiz {
     document.getElementById("quiz-screen").classList.remove("hidden");
     document.getElementById("restart-btn").classList.remove("hidden");
 
-    // Enable quiz controls
     ["reveal-btn", "pause-btn"].forEach(id => {
       document.getElementById(id).disabled = false;
     });
@@ -175,8 +168,14 @@ class Quiz {
 
     document.getElementById("answer-text").textContent = this.currentQuestion.answer;
     const sourceLink = document.getElementById("source-link");
-    sourceLink.href = this.currentQuestion.httpsource || "#";
-    sourceLink.style.display = this.currentQuestion.httpsource ? "inline-block" : "none";
+
+    // Enhanced source link handling
+    const validSource = this.currentQuestion.httpsource &&
+                      this.currentQuestion.httpsource !== "#" &&
+                      this.currentQuestion.httpsource !== "";
+
+    sourceLink.href = validSource ? this.currentQuestion.httpsource : "#";
+    sourceLink.style.display = validSource ? "inline-block" : "none";
 
     document.getElementById("answer-box").classList.remove("hidden");
     document.getElementById("next-btn").classList.remove("hidden");
@@ -241,14 +240,11 @@ class Quiz {
     location.reload();
   }
 
-  // Cleanup event listeners
   destructor() {
     document.removeEventListener("keydown", this.handleKeyPress);
   }
 }
 
-// Initialize quiz
+// Initialize and cleanup
 const quiz = new Quiz();
-
-// Cleanup on page unload
 window.addEventListener("beforeunload", () => quiz.destructor());
