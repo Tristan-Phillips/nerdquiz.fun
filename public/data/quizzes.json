@@ -1,113 +1,162 @@
 {
-    "quizzes": [
-      {
-        "id": "harrypotter",
-        "title": "Harry Potter",
-        "tagline": "Test your wizarding knowledge",
-        "href": "/quiz/harrypotter",
-        "status": "active",
-        "audioSupport": "half",
-        "lastUpdated": "2025-02-17"
-      },
-      {
-        "id": "videogames",
-        "title": "Video Games",
-        "tagline": "Level up your gaming knowledge",
-        "href": "/quiz/videogames",
-        "status": "coming_soon"
-      },
-      {
-        "id": "lotr",
-        "title": "The Lord Of The Rings",
-        "tagline": "Explore the epic tales of Middle-earth",
-        "href": "/quiz/lotr",
-        "status": "active",
-        "audioSupport": "none",
-        "lastUpdated": "2025-02-17"
-      },
-      {
-        "id": "avatar",
-        "title": "Avatar: The Last Airbender",
-        "tagline": "Master the elements",
-        "href": "/quiz/avatar",
-        "status": "coming_soon"
-      },
-      {
-        "id": "dccomics",
-        "title": "DC Comics",
-        "tagline": "Enter the world of superheroes and villains",
-        "href": "/quiz/dccomics",
-        "status": "coming_soon"
-      },
-      {
-        "id": "disney",
-        "title": "Disney Animated Classics",
-        "tagline": "Relive your favorite animated tales",
-        "href": "/quiz/disney",
-        "status": "coming_soon"
-      },
-      {
-        "id": "doctorwho",
-        "title": "Doctor Who",
-        "tagline": "Time travel with the Doctor",
-        "href": "/quiz/doctorwho",
-        "status": "coming_soon"
-      },
-      {
-        "id": "dune",
-        "title": "Dune",
-        "tagline": "Venture into the world of Arrakis",
-        "href": "/quiz/dune",
-        "status": "coming_soon"
-      },
-      {
-        "id": "gameofthrones",
-        "title": "Game of Thrones",
-        "tagline": "Explore the world of Westeros",
-        "href": "/quiz/gameofthrones",
-        "status": "coming_soon"
-      },
-      {
-        "id": "mcu",
-        "title": "MCU",
-        "tagline": "Dive into the Marvel Universe",
-        "href": "/quiz/mcu",
-        "status": "coming_soon"
-      },
-      {
-        "id": "mythology",
-        "title": "Mythology",
-        "tagline": "Explore ancient myths and legends",
-        "href": "/quiz/mythology",
-        "status": "coming_soon"
-      },
-      {
-        "id": "pixar",
-        "title": "Pixar Movies",
-        "tagline": "Experience the magic of Pixar",
-        "href": "/quiz/pixar",
-        "status": "coming_soon"
-      },
-      {
-        "id": "starwars",
-        "title": "Star Wars",
-        "tagline": "Test your Jedi knowledge",
-        "href": "/quiz/starwars",
-        "status": "coming_soon"
-      },
-      {
-        "id": "startrek",
-        "title": "Star Trek",
-        "tagline": "Boldly go where no one has gone before",
-        "href": "/quiz/startrek",
-        "status": "coming_soon"
-      },
-      {
-        "id": "thewitcher",
-        "title": "The Witcher",
-        "tagline": "Discover the Continent's secrets",
-        "href": "/quiz/thewitcher",
-        "status": "coming_soon"
-      }
-    ]
-  }
+  "quizzes": [
+    {
+      "id": "harrypotter",
+      "title": "Harry Potter",
+      "tagline": "Test your wizarding knowledge",
+      "href": "/quiz/harrypotter",
+      "status": "active",
+      "audioSupport": "half",
+      "lastUpdated": "2025-02-17"
+    },
+    {
+      "id": "lotr",
+      "title": "The Lord Of The Rings",
+      "tagline": "Explore the epic tales of Middle-earth",
+      "href": "/quiz/lotr",
+      "status": "active",
+      "audioSupport": "none",
+      "lastUpdated": "2025-02-17"
+    },
+    {
+      "id": "doctorwho",
+      "title": "Doctor Who",
+      "tagline": "Time travel with the Doctor",
+      "href": "/quiz/doctorwho",
+      "status": "coming_soon"
+    },
+    {
+      "id": "dune",
+      "title": "Dune",
+      "tagline": "Venture into the world of Arrakis",
+      "href": "/quiz/dune",
+      "status": "coming_soon"
+    },
+    {
+      "id": "gameofthrones",
+      "title": "Game of Thrones",
+      "tagline": "Explore the world of Westeros",
+      "href": "/quiz/gameofthrones",
+      "status": "coming_soon"
+    },
+    {
+      "id": "starwars",
+      "title": "Star Wars",
+      "tagline": "Test your Jedi knowledge",
+      "href": "/quiz/starwars",
+      "status": "coming_soon"
+    },
+    {
+      "id": "startrek",
+      "title": "Star Trek",
+      "tagline": "Boldly go where no one has gone before",
+      "href": "/quiz/startrek",
+      "status": "coming_soon"
+    },
+    {
+      "id": "thewitcher",
+      "title": "The Witcher",
+      "tagline": "Discover the Continent's secrets",
+      "href": "/quiz/thewitcher",
+      "status": "coming_soon"
+    },
+    {
+      "id": "discworld",
+      "title": "Discworld",
+      "tagline": "Navigate Terry Pratchett’s satirical fantasy universe",
+      "href": "/quiz/discworld",
+      "status": "coming_soon"
+    },
+    {
+      "id": "alteredcarbon",
+      "title": "Altered Carbon",
+      "tagline": "Explore a future where consciousness is transferrable",
+      "href": "/quiz/alteredcarbon",
+      "status": "coming_soon"
+    },
+    {
+      "id": "pokemon",
+      "title": "Pokémon",
+      "tagline": "Gotta catch 'em all! Test your Pokémon knowledge",
+      "href": "/quiz/pokemon",
+      "status": "coming_soon"
+    },
+    {
+      "id": "minecraft",
+      "title": "Minecraft",
+      "tagline": "Craft, mine, and survive in this blocky world",
+      "href": "/quiz/minecraft",
+      "status": "coming_soon"
+    },
+    {
+      "id": "dnd",
+      "title": "Dungeons & Dragons",
+      "tagline": "Roll the dice and delve into tabletop RPG lore",
+      "href": "/quiz/dnd",
+      "status": "coming_soon"
+    },
+    {
+      "id": "thewalkingdead",
+      "title": "The Walking Dead",
+      "tagline": "Survive the zombie apocalypse with Rick and his group",
+      "href": "/quiz/thewalkingdead",
+      "status": "coming_soon"
+    },
+    {
+      "id": "thematrix",
+      "title": "The Matrix",
+      "tagline": "Unplug from the simulation and join the resistance",
+      "href": "/quiz/thematrix",
+      "status": "coming_soon"
+    },
+    {
+      "id": "warcraft",
+      "title": "Warcraft",
+      "tagline": "Explore Azeroth, the Horde, and the Alliance",
+      "href": "/quiz/warcraft",
+      "status": "coming_soon"
+    },
+    {
+      "id": "theelderScrolls",
+      "title": "The Elder Scrolls",
+      "tagline": "Explore Tamriel and its vast, rich history",
+      "href": "/quiz/theelderScrolls",
+      "status": "coming_soon"
+    },
+    {
+      "id": "warhammer40k",
+      "title": "Warhammer 40k",
+      "tagline": "Dive into the grim darkness of the far future",
+      "href": "/quiz/warhammer40k",
+      "status": "coming_soon"
+    },
+    {
+      "id": "thehitchhikersguide",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "tagline": "Travel the galaxy with Arthur Dent and Ford Prefect",
+      "href": "/quiz/thehitchhikersguide",
+      "status": "coming_soon"
+    },
+    {
+      "id": "themagicians",
+      "title": "The Magicians",
+      "tagline": "Explore Brakebills and the magical land of Fillory",
+      "href": "/quiz/themagicians",
+      "status": "coming_soon"
+    },
+    {
+      "id": "westworld",
+      "title": "Westworld",
+      "tagline": "Explore the AI-driven theme park and its dark secrets",
+      "href": "/quiz/westworld",
+      "status": "coming_soon"
+    },
+    {
+      "id": "thewheeloftime",
+      "title": "The Wheel of Time",
+      "tagline": "Journey through Robert Jordan’s epic fantasy series",
+      "href": "/quiz/thewheeloftime",
+      "status": "coming_soon"
+    }
+  ]
+}
