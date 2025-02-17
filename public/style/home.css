@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: "Cinzel", serif;
+  font-family: "Merriweather", serif;
   background: var(--background);
   color: var(--gold);
   min-height: 100vh;

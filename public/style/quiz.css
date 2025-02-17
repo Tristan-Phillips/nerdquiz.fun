@@ -9,7 +9,7 @@
 
 body {
     background: var(--background);
-    font-family: 'Cinzel', serif;
+    font-family: "Playfair Display", serif;
     line-height: 1.6;
     color: var(--text-dark);
 }

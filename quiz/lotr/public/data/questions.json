@@ -1013,5 +1013,348 @@
     "id": "a131eee8129ddf7d6c4a47ef99d35814",
     "difficulty": "unmarked",
     "httpsource": "#"
+  },
+  {
+    "question": "Which Vala created the Dwarves?",
+    "answer": "Aulë the Smith (Mahal, husband of Yavanna)",
+    "id": "afe2d6d5582f321a715940aba126f058",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the Sindarin name for the Moon?",
+    "answer": "*Ithil* (as in Minas Ithil, Tower of the Moon)",
+    "id": "9995b134097c897e7eed53b3121a8cce",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the traitorous Elf of Gondolin?",
+    "answer": "Maeglin (son of Eöl and Aredhel)",
+    "id": "cd11d6ce4fc899277aebb9c601230fbd",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which Vala is Morgoth’s greatest foe?",
+    "answer": "Tulkas Astaldo (Champion of the Valar)",
+    "id": "6b1ec52eb2f10583a8515f4f16f730d1",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the Dwarvish term for their written runes?",
+    "answer": "Cirth (adapted by Elves into the *Angerthas*)",
+    "id": "62e025ed600de88bb0bc0fe243904b2f",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who heals Arwen’s grievous wound in Lothlórien?",
+    "answer": "Elrond Half-elven (using Vilya’s power)",
+    "id": "c44e1689f76f42ed62f22a08de21da6e",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which mortal man confronts Morgoth in single combat?",
+    "answer": "Fingolfin (High King of the Noldor)",
+    "id": "f1aee556cb8acb4fcf552dcca772f0e5",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who guards the Grey Havens during the Third Age?",
+    "answer": "Círdan the Shipwright (bearer of Narya prior to Gandalf)",
+    "id": "dbc454b0cb629b6f76d00f975aca9d31",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which creature does Fëanor’s son Curufin tame?",
+    "answer": "Huan the Hound of Valinor",
+    "id": "f6fe5fd1f8b6059b79cc3b8f53232c0a",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Where does Aragorn first meet Éowyn?",
+    "answer": "Edoras (in the Golden Hall of Meduseld)",
+    "id": "713736d208456a5d282336756e9e355c",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the ruler of Eregion when Sauron forges the Rings?",
+    "answer": "Celebrimbor (Lord of the Gwaith-i-Mírdain)",
+    "id": "7abf56e8de2309bf338ac7f8668180d9",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which First Age battle ends in Morgoth’s defeat?",
+    "answer": "War of Wrath (Host of Valinor destroys Thangorodrim)",
+    "id": "8e767166e2716cb3b4507a49914a0008",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who carves the Doors of Durin?",
+    "answer": "Narvi (Dwarf) and Celebrimbor (Elf)",
+    "id": "a99fb6d19704c51dd83487bd05d1c155",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which Elven city is built in a hidden valley?",
+    "answer": "Gondolin (founded by Turgon)",
+    "id": "ca2992215cd91a5d62e9d181a4abedcd",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What destroys Minas Ithil?",
+    "answer": "The Nazgûl (captured and renamed Minas Morgul)",
+    "id": "a878d3783f86be43bb14f5f2228d54b7",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the mother of Fingolfin and Finarfin?",
+    "answer": "Indis (second wife of Finwë)",
+    "id": "d07db495cb3b243913ca0d57d8e4e86e",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the name of Shelob’s ancestor?",
+    "answer": "Ungoliant (consumed the Two Trees)",
+    "id": "ad42c28a5649900f083c5feafb177835",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which elf-lord wields Ringil, the ice sword?",
+    "answer": "Fingolfin (used against Morgoth)",
+    "id": "ad54215ceac050f9a700ef77913df3cb",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who leads the Vanyar Elves to Middle-earth?",
+    "answer": "Ingwë (High King of the Elves)",
+    "id": "3c8311c1c6178f10071b352dac79128a",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What Elven realm does Galadriel rule before Lothlórien?",
+    "answer": "Eregion (co-ruled with Celeborn)",
+    "id": "16396a636023f09ae7586f593e0a2831",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the author of *The Red Book of Westmarch*?",
+    "answer": "Bilbo and Frodo Baggins (later updated by Sam)",
+    "id": "d4900bc2428c77257713efd4e252769f",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the first Dark Lord in Middle-earth?",
+    "answer": "Morgoth (Melkor)",
+    "id": "ed04706c3826cf0ed8f5ce09e730fcd0",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which Númenórean queen defies Sauron?",
+    "answer": "Tar-Míriel (last Ruling Queen of Númenor)",
+    "id": "9d8d0f32b04e57498910b20e5b804dd0",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the Elvish term for the ‘Children of Ilúvatar’?",
+    "answer": "*Eruhíni* (Elves and Men)",
+    "id": "25ba3f1b45a858447c28cab56e9b97d0",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the father of Gil-galad?",
+    "answer": "Fingon (son of Fingolfin), according to later writings",
+    "id": "eb890226e01daa4f4c7eb5d97cf9f4b5",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the Sindarin word for the Sun?",
+    "answer": "*Anor* (as in Minas Anor, Tower of the Sun)",
+    "id": "430d1aad120abc76bcf5e891bd00212a",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which Vala accidentally awakens the Dwarves early?",
+    "answer": "Aulë (disobeying Ilúvatar’s design)",
+    "id": "d0ea7762b5d41576d29db82141b2f146",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the leader of the Haradrim in *The Return of the King*?",
+    "answer": "The Black Serpent (unnamed chieftain)",
+    "id": "5e79845e5c13725c030626176c468a5e",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the name of Aragorn’s standard-bearer?",
+    "answer": "Halbarad (leader of the Grey Company)",
+    "id": "fae10cb3a5952ed7d19d603a5d2aff69",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which Dwarf from *The Hobbit* is Gimli’s cousin?",
+    "answer": "Balin (son of Fundin)",
+    "id": "d5d8482ca4abfdee3113592e0d9c72c0",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the master of the Great Eagles after Gwaihir?",
+    "answer": "Landroval (brother of Gwaihir)",
+    "id": "db762108e9c744df2e42a16ae87ca4a0",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the name of Frodo’s family estate in the Shire?",
+    "answer": "Bag End (located in Hobbiton)",
+    "id": "b845472970997e0bb2756105d2b31b73",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the first Ring-bearer after Sauron?",
+    "answer": "Isildur (cut the Ring from Sauron’s hand)",
+    "id": "eba759731373a207cdeab9ded0a6d384",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which Took ancestor invented golf?",
+    "answer": "Bandobras ‘Bullroarer’ Took",
+    "id": "3192b1ae98f56e7ab88893431c1747c2",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the Dwarvish name for the Misty Mountains?",
+    "answer": "Hithaeglir (from Elvish, Dwarves use Khazad-dûm’s peaks)",
+    "id": "42a27197a805140d1c22601b4a9cbd2a",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who reforges the shards of Narsil?",
+    "answer": "Elven-smiths of Rivendell (before the Fellowship departs)",
+    "id": "c2ea9b8a80f63064b4f4f6e8bd0df03e",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which Steward of Gondor rebuilds Osgiliath’s defenses?",
+    "answer": "Denethor I (father of Boromir and Faramir’s ancestor)",
+    "id": "6bf52fa749d66b847e6254084809a443",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the dark-haired Elf in Thorin’s company?",
+    "answer": "Thranduil (Legolas’s father; not in the book, film addition)",
+    "id": "4a9fffb7ed511e04a1ae0e913ef6f215",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the name of the river bordering Mordor?",
+    "answer": "Anduin (Great River of Middle-earth)",
+    "id": "5c67c7f7416001b8a357e889dcac941b",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is Beren’s father?",
+    "answer": "Barahir (lord of the House of Bëor)",
+    "id": "5b64b6e2bcd494e43b5243c727ddc9c7",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What title does Éomer earn post-War?",
+    "answer": "King of Rohan (succeeds Théoden)",
+    "id": "44ae2f6636da37e8be236432184c429e",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "How many Ents march to Isengard?",
+    "answer": "Approximately 50 Ents and Huorns",
+    "id": "b8ebf5c2d86ba0f62f615eecad7de58b",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who sang the *Song of the Sea* in Rivendell?",
+    "answer": "Legolas (of the Woodland Realm)",
+    "id": "2f8a4dc727201a8b9ec65300983ac3f0",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What was Morgoth’s original purpose in Arda?",
+    "answer": "To reshape the world (but corrupted by pride)",
+    "id": "dc4bec6c1666339ea7e48badff5c182b",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the eldest of the Istari (Wizards)?",
+    "answer": "Saruman the White (Curumo, first to arrive)",
+    "id": "23aa52a3fa290bc1e3ce14ee73cb758d",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the name of Bilbo’s father?",
+    "answer": "Bungo Baggins (son of Mungo)",
+    "id": "9126039f2eb2a6352935e4a934fea3e3",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which Elven realm is ruled by Thranduil?",
+    "answer": "Woodland Realm (Northern Mirkwood)",
+    "id": "e6c5fc2accce0192a3cf62bcbce3fbb4",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the name of Sauron’s lieutenant in Dol Guldur?",
+    "answer": "Khamûl the Easterling (Second-in-command of the Nazgûl)",
+    "id": "d5de02b14d6a1976c0105c7e70905ac7",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who cursed the Men of the Dead to walk Middle-earth?",
+    "answer": "Isildur (for betraying their oath)",
+    "id": "04844ba4146ca8c109e32de27f8ad878",
+    "difficulty": "unmarked",
+    "httpsource": "#"
   }
 ]
