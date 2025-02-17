@@ -45,18 +45,18 @@ function renderQuizzes(quizzes) {
     }
 
     html += `
-      <a href="${quiz.status === "active" ? quiz.href : "#"}" 
-         class="quiz-box ${quiz.status !== "active" ? "coming-soon" : ""}"
-         aria-label="${quiz.title} quiz">
-          <h2>${quiz.title}</h2>
-          <p>${quiz.tagline}</p>
-          ${
-            quiz.status === "active" && audioSupportText
-              ? `<div class="audio-support-overlay">${audioSupportText}</div>`
-              : ""
-          }
-      </a>
-    `;
+    <a href="${quiz.status === "active" ? quiz.href : "#"}" 
+       class="quiz-box ${quiz.status !== "active" ? "coming-soon" : ""}"
+       aria-label="${quiz.title} quiz">
+        <h2>${quiz.title}</h2>
+        <p>${quiz.tagline}</p>
+        ${
+          quiz.status === "active" && audioSupportText
+            ? `<div class="audio-support-overlay">${audioSupportText}</div>`
+            : ""
+        }
+    </a>
+  `;
   }
 
   container.innerHTML = html;
