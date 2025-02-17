@@ -13,6 +13,16 @@ class Quiz {
     this.isAnswerShown = false;
     this.autoplay = true;
     this.timePerRound = 30;
+    this.localization = {};
+
+    // Get quiz name from URL path
+    const pathParts = window.location.pathname.split('/quiz/');
+    this.quizName = pathParts.length > 1 
+      ? pathParts[1].split('/')[0] 
+      : 'harrypotter';
+
+    // Bind event handlers
+    this.handleKeyPress = this.handleKeyPress.bind(this);
 
     this.init();
   }
@@ -20,62 +30,83 @@ class Quiz {
   async init() {
     try {
       document.getElementById("loading").style.display = "flex";
-      await this.loadQuestions();
+      await Promise.all([this.loadLocalization(), this.loadQuestions()]);
       this.setupEventListeners();
+      this.updateLocalizedElements();
       document.getElementById("loading").style.display = "none";
       document.getElementById("source-link").style.display = "none";
     } catch (error) {
       console.error("Initialization Error:", error);
       document.getElementById("loading").innerHTML = `
-                <p style="color: #cc0000">Error: ${error.message}</p>
-                <button onclick="location.reload()">Reload</button>
-            `;
+        <p style="color: #cc0000">${error.message}</p>
+        <button onclick="location.reload()">Reload Page</button>
+      `;
     }
   }
 
+  async loadLocalization() {
+    const response = await fetch('/public/localization/en.json');
+    if (!response.ok) throw new Error("Failed to load translations");
+    this.localization = await response.json();
+  }
+
   async loadQuestions() {
-    const response = await fetch("public/data/questions.json");
+    const response = await fetch(`/quiz/${this.quizName}/public/data/questions.json`);
     if (!response.ok) throw new Error("Failed to load questions");
-    const data = await response.json();
-    // Changed from data.questions to direct data assignment
-    this.questions = data;
+    this.questions = await response.json();
   }
 
   setupEventListeners() {
-    document
-      .getElementById("start-btn")
-      .addEventListener("click", () => this.startQuiz());
-    document
-      .getElementById("reveal-btn")
-      .addEventListener("click", () => this.showAnswer());
-    document
-      .getElementById("next-btn")
-      .addEventListener("click", () => this.nextQuestion(false));
-    document
-      .getElementById("pause-btn")
-      .addEventListener("click", () => this.togglePause());
-    document.getElementById("restart-btn").addEventListener("click", () => {
-      location.reload();
+    // Button click handlers
+    document.getElementById("start-btn").addEventListener("click", () => this.startQuiz());
+    document.getElementById("reveal-btn").addEventListener("click", () => this.showAnswer());
+    document.getElementById("next-btn").addEventListener("click", () => this.nextQuestion(false));
+    document.getElementById("pause-btn").addEventListener("click", () => this.togglePause());
+    document.getElementById("restart-btn").addEventListener("click", () => location.reload());
+
+    // Autoplay toggle
+    document.getElementById("autoplay-checkbox").addEventListener("change", (e) => {
+      this.autoplay = e.target.checked;
     });
-    document
-      .getElementById("autoplay-checkbox")
-      .addEventListener("change", (e) => {
-        this.autoplay = e.target.checked;
-      });
+
+    // Keyboard controls
+    document.addEventListener("keydown", this.handleKeyPress);
+  }
+
+  updateLocalizedElements() {
+    // Set general translations
+    document.title = this.localize('textDefaults.titleText', 'NerdQuiz.Fun');
+  
+    document.querySelectorAll('[data-i18n]').forEach(element => {
+      const key = element.getAttribute('data-i18n');
+      const text = this.localize(key);
+      if (text) element.textContent = text;
+    });
+  
+    // Handle quiz-specific title using CSS class selector
+    const quizTitleKey = `quizzes.${this.quizName}.title`;
+    const quizTitle = this.localize(quizTitleKey, this.quizName.replace(/([A-Z])/g, ' $1').trim() + ' Quiz');
+  
+    document.querySelectorAll('.quiz-title').forEach(el => {
+      el.textContent = quizTitle;
+    });
+  }
+
+  localize(key, fallback = '') {
+    return key.split('.').reduce((o,i) => o?.[i], this.localization) || fallback;
   }
 
   startQuiz() {
     this.usedIndices.clear();
     this.totalAnswered = 0;
-    this.maxQuestions =
-      parseInt(document.getElementById("question-limit").value) || Infinity;
-    const quizTitle = document.getElementById("quiz-title");
+    this.maxQuestions = parseInt(document.getElementById("question-limit").value) || Infinity;
 
     document.getElementById("setup-screen").classList.add("hidden");
     document.getElementById("quiz-screen").classList.remove("hidden");
     document.getElementById("restart-btn").classList.remove("hidden");
 
-    ["reveal-btn", "pause-btn"].forEach((id) => {
+    // Enable quiz controls
+    ["reveal-btn", "pause-btn"].forEach(id => {
       document.getElementById(id).disabled = false;
     });
 
@@ -105,17 +136,15 @@ class Quiz {
       return this.getRandomQuestion();
     }
 
-    const index = Math.floor(Math.random() * available.length);
-    const questionIndex = this.questions.indexOf(available[index]);
-    this.usedIndices.add(questionIndex);
-    return available[index];
+    const question = available[Math.floor(Math.random() * available.length)];
+    this.usedIndices.add(this.questions.indexOf(question));
+    return question;
   }
 
   updateDisplay() {
-    document.getElementById("question-text").textContent =
-      this.currentQuestion.question;
+    document.getElementById("question-text").textContent = this.currentQuestion.question;
     document.getElementById("current-count").textContent = this.totalAnswered;
-    document.getElementById("total-questions").textContent =
+    document.getElementById("total-questions").textContent = 
       this.maxQuestions === Infinity ? "/ ∞" : `/ ${this.maxQuestions}`;
     document.getElementById("answer-box").classList.add("hidden");
     document.getElementById("source-link").style.display = "none";
@@ -130,12 +159,9 @@ class Quiz {
 
     this.timer = setInterval(() => {
       if (this.isPaused) return;
-
       this.timeLeft--;
-      document.getElementById("timer-bar").style.width = `${
-        (this.timeLeft / this.timePerRound) * 100
-      }%`;
-
+      document.getElementById("timer-bar").style.width = 
+        `${(this.timeLeft / this.timePerRound) * 100}%`;
       if (this.timeLeft <= 0) this.showAnswer(true);
     }, 1000);
   }
@@ -147,14 +173,10 @@ class Quiz {
     clearInterval(this.timer);
     this.stopAudio();
 
-    document.getElementById("answer-text").textContent =
-      this.currentQuestion.answer;
+    document.getElementById("answer-text").textContent = this.currentQuestion.answer;
     const sourceLink = document.getElementById("source-link");
-    sourceLink.href = this.currentQuestion.httpsource;
-    sourceLink.style.display =
-      this.currentQuestion.httpsource && this.currentQuestion.httpsource !== "#"
-        ? "inline-block"
-        : "none";
+    sourceLink.href = this.currentQuestion.httpsource || "#";
+    sourceLink.style.display = this.currentQuestion.httpsource ? "inline-block" : "none";
 
     document.getElementById("answer-box").classList.remove("hidden");
     document.getElementById("next-btn").classList.remove("hidden");
@@ -168,16 +190,18 @@ class Quiz {
 
   playQuestionAudio() {
     this.stopAudio();
-    const questionAudioPath = `public/audio/questions/${this.currentQuestion.id}.mp3`;
-    this.currentAudio = new Audio(questionAudioPath);
-    this.currentAudio.play().catch(() => {});
+    this.currentAudio = new Audio(
+      `/quiz/${this.quizName}/public/audio/questions/${this.currentQuestion.id}.mp3`
+    );
+    this.currentAudio.play().catch(console.error);
   }
 
   playAnswerAudio() {
     this.stopAudio();
-    const answerAudioPath = `public/audio/answers/${this.currentQuestion.id}.mp3`;
-    this.currentAudio = new Audio(answerAudioPath);
-    this.currentAudio.play().catch(() => {});
+    this.currentAudio = new Audio(
+      `/quiz/${this.quizName}/public/audio/answers/${this.currentQuestion.id}.mp3`
+    );
+    this.currentAudio.play().catch(console.error);
   }
 
   stopAudio() {
@@ -202,12 +226,29 @@ class Quiz {
     }
   }
 
+  handleKeyPress(event) {
+    if (event.code === "Space" && !this.isAnswerShown) {
+      this.showAnswer();
+    }
+    if (event.code === "ArrowRight" && this.isAnswerShown) {
+      this.nextQuestion();
+    }
+  }
+
   endQuiz() {
     this.stopAudio();
     alert(`Quiz Complete! Answered ${this.totalAnswered} questions.`);
     location.reload();
   }
+
+  // Cleanup event listeners
+  destructor() {
+    document.removeEventListener("keydown", this.handleKeyPress);
+  }
 }
 
 // Initialize quiz
-new Quiz();
+const quiz = new Quiz();
+
+// Cleanup on page unload
+window.addEventListener("beforeunload", () => quiz.destructor());

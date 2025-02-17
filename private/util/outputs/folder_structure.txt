@@ -17,6 +17,10 @@ C:\USERS\T\DESKTOP\NERDQUIZFUN\NERDQUIZ.FUN
 +---public
 ª   +---data
 ª   ª       quizzes.json
+ª   ª       settings.json
+ª   ª       
+ª   +---localization
+ª   ª       en.json
 ª   ª       
 ª   +---script
 ª   ª       home.js
@@ -27,16 +31,110 @@ C:\USERS\T\DESKTOP\NERDQUIZFUN\NERDQUIZ.FUN
 ª           quiz.css
 ª           
 +---quiz
-    +---dune
     +---harrypotter
     ª   ª   index.html
     ª   ª   
     ª   +---public
     ª       +---audio
     ª       ª   +---answers
+    ª       ª   ª       5ea9dba103f15fb474c65244ffda7e86.mp3
+    ª       ª   ª       
     ª       ª   +---questions
+    ª       ª           00e4e7d4c8cf7e1cc2ad709c59afac9c.mp3
+    ª       ª           09431b783438ca94d0e2b48d566a19e5.mp3
+    ª       ª           0953bdc5e8f3ccbeead9753cd6e8bec8.mp3
+    ª       ª           0ec2da7349cd97f3edd0e421bd8f0bd4.mp3
+    ª       ª           113ed06db425a08763c9a30977dda19c.mp3
+    ª       ª           12d75c05d81bd50f0c03c2c03e7acb1e.mp3
+    ª       ª           13092a4e31864d090c1947c2def2b7c5.mp3
+    ª       ª           13c4c8574347923808f06072764922c2.mp3
+    ª       ª           17f853252b39978aef103eb3df1c2086.mp3
+    ª       ª           194f0063eddcb6372350d91f2e17473f.mp3
+    ª       ª           199345a49baedd157b2755a7696cfa4c.mp3
+    ª       ª           1a9c8b40028dfe820126f378f9db6995.mp3
+    ª       ª           1c05dda905ff224443dca9c11dd38ee9.mp3
+    ª       ª           1f7a5a14d47cae05d31bd61653aec8d5.mp3
+    ª       ª           1faa01b65ab886f8029cf3f7419a1140.mp3
+    ª       ª           21f9b11ee7d5be01965baba428f0314e.mp3
+    ª       ª           304cd72b99a03d4b1beb36bbfa317a47.mp3
+    ª       ª           30936574da742ec5c2703474c56167ab.mp3
+    ª       ª           3cd97e4a8a02123d9d8d57baf9f2064a.mp3
+    ª       ª           3d3af465e65ed81dce12bc2b183b025f.mp3
+    ª       ª           420e2063c4797f42b26f340b5976382b.mp3
+    ª       ª           4326daca679184609e72ca433a25adf8.mp3
+    ª       ª           4826e349e418cb07110cfff5901f5f62.mp3
+    ª       ª           498aee480e7ae7bb30a2037b5e978145.mp3
+    ª       ª           4aaa4cd123b28c4e3708d395cb48ff0b.mp3
+    ª       ª           4b5167dcafc755f36c521cb7d4d16af8.mp3
+    ª       ª           4dafdb0a9f3d6f6b3a1839663dac9172.mp3
+    ª       ª           4eb852571f6815f0eaa1c98214bf8248.mp3
+    ª       ª           500e2b5d94fcfabeb9c4ecf06fad122f.mp3
+    ª       ª           501f4cc8b3c9a7a42e898fd1f9e5340a.mp3
+    ª       ª           550811ce37b1f5846c00bc81114f8070.mp3
+    ª       ª           5b9c957e1f475aaf37c764b2cce6f1d4.mp3
+    ª       ª           5ea9dba103f15fb474c65244ffda7e86.mp3
+    ª       ª           5ec9bab7065a13692ab6ed3a2b7dc63f.mp3
+    ª       ª           629efb7efb777460333709e1e65409be.mp3
+    ª       ª           69e5f4b1bcf53b4a37360cdd47c60680.mp3
+    ª       ª           6a77a7d0eca0b01c2de8fbc879f72721.mp3
+    ª       ª           6b1fdc5459dec21f8ad57a0f802a9cf2.mp3
+    ª       ª           6b4769ffad0a1244a3c6e8027de25fd9.mp3
+    ª       ª           6dc1ad66337217b1d86068ea8c7e34e8.mp3
+    ª       ª           6def755db06552632318396ced676d25.mp3
+    ª       ª           75f31430f637942a3d6d22672f75deab.mp3
+    ª       ª           7b41a65315e0082e48611c558429d281.mp3
+    ª       ª           7cdc031796e4cb7c270db94decf40667.mp3
+    ª       ª           7d43dc7d14e6ad28e2593f4b8b58678e.mp3
+    ª       ª           7fb5fd2ec2e5f461ad0996cf178031b0.mp3
+    ª       ª           806e630eff53789ca111d9b26c77ed40.mp3
+    ª       ª           84be33d72b5a65a0489d76bba348bd17.mp3
+    ª       ª           8533889b489a9f4b0976e8b107df0c36.mp3
+    ª       ª           86bb43b5ce8d62edb622bde93ff52998.mp3
+    ª       ª           8aaa783c2f038043452abf13151d6f82.mp3
+    ª       ª           8c3c85e68a1bdca6349e6293a6b4a69e.mp3
+    ª       ª           8c6ab3eb606cb366333bddc49d70d55f.mp3
+    ª       ª           93eb4ca5bbdb0ea28bd081cf0c38b456.mp3
+    ª       ª           9c43755f42d8330b262aea0ba654cdd4.mp3
+    ª       ª           9d77320394feb8998095fb725639e2df.mp3
+    ª       ª           a08fa3aaf2621243703d6a936f8e66b4.mp3
+    ª       ª           a375bab039dc8479b71015dc2cc2e4e7.mp3
+    ª       ª           a73c10ad27f3e579587d01bf83801f0e.mp3
+    ª       ª           a84bac27d68e48502319b285a9b8039d.mp3
+    ª       ª           ac0b29690eb0a456c35dd835ea0c7f88.mp3
+    ª       ª           b31a5f2138ba9c92453d9811d81150fb.mp3
+    ª       ª           b3e93f0079de1a00decccd66bb0f8154.mp3
+    ª       ª           b9553909e50a2f745847e806a355b222.mp3
+    ª       ª           b99aa3e95aca2064f7714f28e02e44dc.mp3
+    ª       ª           bea99c7f641acea73511ea1a9cdce45a.mp3
+    ª       ª           bf7fed9d9b87539ae216b53efcbfe22c.mp3
+    ª       ª           c289fd3068ed323ecdffca54da651f42.mp3
+    ª       ª           c550d595ecd2a9d111d6c7f73bcd70bf.mp3
+    ª       ª           cc1b81e01ea7b7079292476ab8f4397a.mp3
+    ª       ª           d7536af308b848a42989616233b6fb5d.mp3
+    ª       ª           db2636e6b4c63f15eb27fada81fe8122.mp3
+    ª       ª           ddd591d704773e5b334ff592921530b2.mp3
+    ª       ª           df5a07bb466006d47d9458434eef4dbd.mp3
+    ª       ª           dffa7402c18d5def7dc2d278ac50a0cf.mp3
+    ª       ª           e1822f8f1bc6cd1718755b9e41275355.mp3
+    ª       ª           e1ed0b4fd5ecdffc6d42af13cebb94f5.mp3
+    ª       ª           e2f7d83899a899ea4c83b521291c59d4.mp3
+    ª       ª           e6ffb9e709ac56e2a26309cec455963c.mp3
+    ª       ª           e73edd98345a86a5571e58165fc52249.mp3
+    ª       ª           ec24127809b1a8a658b9b3c99519a63c.mp3
+    ª       ª           ecd4b823869f6ef7caaa6f76d94a6d8a.mp3
+    ª       ª           f06b1a61efdaa1df451d98c7410b9cad.mp3
+    ª       ª           f1828cc36872dea8dff1a38012c53f69.mp3
+    ª       ª           f6a1a141a7879b35c23a114f927bff99.mp3
+    ª       ª           f7a75937f3a77d4b491eba427051e3cc.mp3
+    ª       ª           f8a80e26502a3b95439d9ae9f8a2f1b1.mp3
+    ª       ª           
     ª       +---data
+    ª               questions.csv
     ª               questions.json
-    ª               questions.txt
     ª               
     +---lotr
+        ª   index.html
+        ª   
+        +---public
+            +---audio
+            +---data

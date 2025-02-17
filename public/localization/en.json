@@ -1,16 +1,30 @@
 {
-    "buttonLabels": {
-        "startQuiz": "Start Quiz",
-        "revealAnswer": "✨ Reveal Answer",
-        "nextQuestion": "⏭ Next Question",
-        "pauseQuiz": "⏸ Pause"
+  "quizzes": {
+    "harrypotter": {
+      "title": "🧙 𝓗𝓪𝓻𝓻𝔂 𝓟𝓸𝓽𝓽𝓮𝓻 𝓠𝓾𝓲𝔃 ✨"
     },
-    "textDefaults": {
-        "titleText": "NerdQuiz.Fun",
-        "loadingText": "Preparing magical quiz...",
-        "returnHome": "🏠",
-        "restartQuiz": "🔄",
-        "numberOfQuestions": "Number of Questions",
-        "autoplayQuestions": "Auto-play Questions"
+    "lotr": {
+      "title": "🧙 Lord of the Rings Quiz 🧝"
     }
+  },
+  "buttonLabels": {
+    "startQuiz": "Start Quiz",
+    "revealAnswer": "✨ Reveal Answer",
+    "nextQuestion": "⏭ Next Question",
+    "pauseQuiz": "⏸ Pause"
+  },
+  "textDefaults": {
+    "titleText": "NerdQuiz.Fun",
+    "loadingText": "Preparing magical quiz...",
+    "returnHome": "🏠",
+    "restartQuiz": "🔄",
+    "numberOfQuestions": "Number of Questions",
+    "autoplayQuestions": "Auto-play Questions",
+    "infiniteQuestions": "Infinite",
+    "infiniteSymbol": "∞"
+  },
+  "errorMessages": {
+    "loadQuestions": "Failed to load questions",
+    "loadLocalization": "Failed to load translations"
+  }
 }

@@ -3,69 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title> <!-- Dynamic Title Text -->
+    <title data-i18n="textDefaults.titleText">NerdQuiz.Fun</title>
     <link rel="stylesheet" href="../../public/style/quiz.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=MedievalSharp&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=MedievalSharp&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   </head>
   <body>
     <div id="loading">
       <div class="spinner"></div>
-      <p id="loading-text"></p> <!-- Dynamic Loading Text -->
+      <p id="loading-text" data-i18n="textDefaults.loadingText"></p>
     </div>
 
-    <button
-      class="floating-home-btn"
-      onclick="window.location.href='/'"
-      title="Return to Great Hall"
-      aria-label="Return to Home"
-    >
-      <span class="hover-text">🏠</span> <!-- Dynamic Home Text -->
+    <button class="floating-home-btn" onclick="window.location.href='/'" title="Return to Great Hall" aria-label="Return to Home">
+      <span class="hover-text" data-i18n="textDefaults.returnHome"></span>
     </button>
 
-    <button
-      id="restart-btn"
-      class="floating-home-btn hidden"
-      title="Restart Quiz"
-      aria-label="Restart Quiz"
-    >
-      <span class="hover-text">🔄</span> <!-- Dynamic Restart Text -->
+    <button id="restart-btn" class="floating-home-btn hidden" title="Restart Quiz" aria-label="Restart Quiz">
+      <span class="hover-text" data-i18n="textDefaults.restartQuiz"></span>
     </button>
 
     <div class="container">
-      <!-- Setup Screen -->
       <div id="setup-screen">
-        <h1 id="quiz-title">🧙 𝓗𝓪𝓻𝓻𝔂 𝓟𝓸𝓽𝓽𝓮𝓻 𝓠𝓾𝓲𝔃 ✨</h1>
+        <h1 class="quiz-title"></h1>
         <div class="settings">
           <div class="setting">
-            <label id="question-number-text"></label> <!-- Dynamic Number of Question text-->
+            <label id="question-number-text" data-i18n="textDefaults.numberOfQuestions"></label>
             <select id="question-limit">
-                <!-- Dynamic Question Limits -->
+              <option value="0" data-i18n="textDefaults.infiniteQuestions"></option>
+              <option value="5">5</option>
+              <option value="10">10</option>
+              <option value="15">15</option>
+              <option value="30">30</option>
+              <option value="50">50</option>
+              <option value="100">100</option>
             </select>
           </div>
           <div class="setting">
             <label>
               <input type="checkbox" id="autoplay-checkbox" checked />
-              <!-- Dynamic Auto-play Questions Text -->
+              <span data-i18n="textDefaults.autoplayQuestions"></span>
             </label>
           </div>
-          <button id="start-btn" class="gold-btn"></button> <!-- Dynamic Start Quiz Text -->
+          <button id="start-btn" class="gold-btn" data-i18n="buttonLabels.startQuiz"></button>
         </div>
       </div>
 
-      <!-- Quiz Screen -->
       <div id="quiz-screen" class="hidden">
-        <h1 id="quiz-title">🧙 𝓗𝓪𝓻𝓻𝔂 𝓟𝓸𝓽𝓽𝓮𝓻 𝓠𝓾𝓲𝔃 ✨</h1>
+        <h1 class="quiz-title"></h1>
         <div class="quiz-header">
           <div class="progress">
             🔮 <span id="current-count">0</span>
-            <span id="total-questions">/ ∞</span>
+            <span id="total-questions">/ <span data-i18n="textDefaults.infiniteSymbol"></span></span>
           </div>
           <div id="timer-bar-container">
             <div id="timer-bar"></div>
@@ -85,9 +73,9 @@
         </div>
 
         <div class="controls">
-          <button id="reveal-btn" class="silver-btn"></button> <!-- Dynamic Reveal Answer Text -->
-          <button id="next-btn" class="gold-btn hidden"></button> <!-- Dynamic Next Question Text -->
-          <button id="pause-btn" class="silver-btn"></button> <!-- Dynamic Pause Quiz Text -->
+          <button id="reveal-btn" class="silver-btn" data-i18n="buttonLabels.revealAnswer"></button>
+          <button id="next-btn" class="gold-btn hidden" data-i18n="buttonLabels.nextQuestion"></button>
+          <button id="pause-btn" class="silver-btn" data-i18n="buttonLabels.pauseQuiz"></button>
         </div>
       </div>
     </div>
