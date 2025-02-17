@@ -297,3 +297,17 @@ body {
     font-size: 20px;
   }
 }
+
+.audio-support-overlay {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: var(--gold);
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}

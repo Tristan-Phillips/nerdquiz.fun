@@ -6,7 +6,8 @@
         "tagline": "Test your wizarding knowledge",
         "href": "/quiz/harrypotter",
         "status": "active",
-        "lastUpdated": "2023-08-20"
+        "audioSupport": "half",
+        "lastUpdated": "2025-02-17"
       },
       {
         "id": "videogames",
@@ -20,7 +21,9 @@
         "title": "The Lord Of The Rings",
         "tagline": "Explore the epic tales of Middle-earth",
         "href": "/quiz/lotr",
-        "status": "coming_soon"
+        "status": "active",
+        "audioSupport": "none",
+        "lastUpdated": "2025-02-17"
       },
       {
         "id": "avatar",

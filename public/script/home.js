@@ -27,16 +27,36 @@ function renderQuizzes(quizzes) {
   let html = "";
 
   for (const quiz of quizzes) {
+    let audioSupportText = "";
+    if (quiz.status === "active") {
+      switch (quiz.audioSupport) {
+        case "full":
+          audioSupportText = "Full Audio Support";
+          break;
+        case "half":
+          audioSupportText = "Partial Audio Support";
+          break;
+        case "none":
+          audioSupportText = "No Audio Support";
+          break;
+        default:
+          audioSupportText = "";
+      }
+    }
+
     html += `
-                    <a href="${quiz.status === "active" ? quiz.href : "#"}" 
-                       class="quiz-box ${
-                         quiz.status !== "active" ? "coming-soon" : ""
-                       }"
-                       aria-label="${quiz.title} quiz">
-                        <h2>${quiz.title}</h2>
-                        <p>${quiz.tagline}</p>
-                    </a>
-                `;
+      <a href="${quiz.status === "active" ? quiz.href : "#"}" 
+         class="quiz-box ${quiz.status !== "active" ? "coming-soon" : ""}"
+         aria-label="${quiz.title} quiz">
+          <h2>${quiz.title}</h2>
+          <p>${quiz.tagline}</p>
+          ${
+            quiz.status === "active" && audioSupportText
+              ? `<div class="audio-support-overlay">${audioSupportText}</div>`
+              : ""
+          }
+      </a>
+    `;
   }
 
   container.innerHTML = html;

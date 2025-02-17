@@ -1,946 +1,827 @@
 [
   {
-    "question": "Who is known as the Boy Who Lived?",
-    "answer": "Harry Potter",
-    "id": "5ea9dba103f15fb474c65244ffda7e86",
+    "question": "Who is the bearer of the One Ring tasked with destroying it?",
+    "answer": "Frodo Baggins",
+    "id": "41aa15e023be5003d0b9c341234cd164",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Who is Harry Potter's godfather?",
-    "answer": "Sirius Black",
-    "id": "69e5f4b1bcf53b4a37360cdd47c60680",
+    "question": "Who is the rightful heir to the throne of Gondor?",
+    "answer": "Aragorn",
+    "id": "acdeef4a4a224f10dd1678a96330e3e3",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Who is the headmaster of Hogwarts during most of Harry's time there?",
-    "answer": "Albus Dumbledore",
-    "id": "5b9c957e1f475aaf37c764b2cce6f1d4",
+    "question": "What is the name of Aragorn’s reforged sword?",
+    "answer": "Andúril",
+    "id": "45dc931e66b5a31d5f2f3c1456463908",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Which Hogwarts house is renowned for its bravery?",
-    "answer": "Gryffindor",
-    "id": "113ed06db425a08763c9a30977dda19c",
+    "question": "Which wizard falls to the Balrog in Moria?",
+    "answer": "Gandalf the Grey",
+    "id": "77f3276a6a735699e72eaa435fc0f44d",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the magical platform number at King's Cross Station for the Hogwarts Express?",
-    "answer": "9 and 3/4",
-    "id": "3cd97e4a8a02123d9d8d57baf9f2064a",
+    "question": "Who is the ruler of Rohan during the War of the Ring?",
+    "answer": "Théoden",
+    "id": "a428600da2f7a9d395b571881f501606",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Who is the Half-Blood Prince?",
-    "answer": "Severus Snape",
-    "id": "b31a5f2138ba9c92453d9811d81150fb",
+    "question": "Which creature calls the One Ring 'my precious'?",
+    "answer": "Gollum",
+    "id": "4d93517c8f32dba8f6191c9a626c641b",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the full name of the witch who founded the Society for the Promotion of Elfish Welfare (S.P.E.W.)?",
-    "answer": "Hermione Jean Granger",
-    "id": "4326daca679184609e72ca433a25adf8",
+    "question": "Where is the One Ring forged and destroyed?",
+    "answer": "Mount Doom",
+    "id": "f146a96c05484cbdba6f1fd54144bb3a",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Which charm did Severus Snape invent that causes deep cuts on the victim's skin?",
-    "answer": "Sectumsempra",
-    "id": "b9553909e50a2f745847e806a355b222",
+    "question": "Who is the Dark Lord seeking the One Ring?",
+    "answer": "Sauron",
+    "id": "57f0f03561d68e96dbf454556d689783",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of Albus Dumbledore’s childhood friend who later becomes an infamous dark wizard?",
-    "answer": "Gellert Grindelwald",
-    "id": "4826e349e418cb07110cfff5901f5f62",
+    "question": "Which elf gives Frodo the Light of Eärendil?",
+    "answer": "Galadriel",
+    "id": "36445d1836b7c9a6ffc8f185f981b34d",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the exact address of Sirius Black's family home and the headquarters for the Order of the Phoenix?",
-    "answer": "12 Grimmauld Place, London",
-    "id": "550811ce37b1f5846c00bc81114f8070",
+    "question": "What is the name of the Fellowship’s dwarf member?",
+    "answer": "Gimli",
+    "id": "05daea08483ac8badf84807149fb627b",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "In the Battle of Hogwarts, which Weasley family member was killed?",
-    "answer": "Fred Weasley",
-    "id": "9d77320394feb8998095fb725639e2df",
+    "question": "Which forest is home to Tom Bombadil?",
+    "answer": "Old Forest",
+    "id": "b8595c0ef6850835fabe0d1146aa3d25",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the core of the Elder Wand, one of the Deathly Hallows?",
-    "answer": "Thestral tail hair",
-    "id": "30936574da742ec5c2703474c56167ab",
+    "question": "Who is the steward of Gondor during the War of the Ring?",
+    "answer": "Denethor",
+    "id": "51577300e94125fa0a60b9d874b99e1c",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Who was the original owner of the Resurrection Stone, according to The Tale of the Three Brothers?",
-    "answer": "Cadmus Peverell",
-    "id": "8c6ab3eb606cb366333bddc49d70d55f",
+    "question": "What is the name of Samwise Gamgee’s father?",
+    "answer": "Hamfast Gamgee",
+    "id": "8c4e7e4a0eba75934045eeac25d194b3",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the potion that forces the drinker to tell the truth?",
-    "answer": "Veritaserum",
-    "id": "6b1fdc5459dec21f8ad57a0f802a9cf2",
+    "question": "Which cursed blade does Merry use to injure the Witch-king?",
+    "answer": "Barrow-blade",
+    "id": "0d7668595b8e075d05045801eecf49bb",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What did R.A.B. stand for in the note left inside the locket Horcrux?",
-    "answer": "Regulus Arcturus Black",
-    "id": "21f9b11ee7d5be01965baba428f0314e",
+    "question": "Who kills the Witch-king of Angmar?",
+    "answer": "Éowyn and Merry",
+    "id": "1990861282e0b31bdabd2b4cbf29df29",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the goblin who helps Harry break into Gringotts in the final book?",
-    "answer": "Griphook",
-    "id": "ec24127809b1a8a658b9b3c99519a63c",
+    "question": "What is the Elvish word for 'friend' that opens the Doors of Durin?",
+    "answer": "Mellon",
+    "id": "ad67962a46fcbf568fbf9f2e3b95c1d1",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Who was the Hogwarts Headmaster before Albus Dumbledore?",
-    "answer": "Armando Dippet",
-    "id": "4b5167dcafc755f36c521cb7d4d16af8",
+    "question": "Which race created the One Ring?",
+    "answer": "Elves (under Sauron's influence)",
+    "id": "538c6178e4785bc8484cf9c2af54d999",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the charm that can reveal the last spell cast by a wand?",
-    "answer": "Priori Incantatem",
-    "id": "304cd72b99a03d4b1beb36bbfa317a47",
+    "question": "Who is Legolas’s father?",
+    "answer": "Thranduil",
+    "id": "d4b425947011ae2c2da661a28e688eb3",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Who was the first student to be sorted into Gryffindor during Harry’s first year at Hogwarts?",
-    "answer": "Lavender Brown",
-    "id": "e6ffb9e709ac56e2a26309cec455963c",
+    "question": "Where do the Hobbits destroy the One Ring?",
+    "answer": "Mount Doom",
+    "id": "57e72fb8eaf08497d658d1dddc65462b",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Which Hogwarts student was petrified with a camera in his hands during the events of 'The Chamber of Secrets'?",
-    "answer": "Colin Creevey",
-    "id": "12d75c05d81bd50f0c03c2c03e7acb1e",
+    "question": "What is the name of Gandalf’s horse?",
+    "answer": "Shadowfax",
+    "id": "847b65446926344f18c08e4c194742c9",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What are the names of the three Peverell brothers from 'The Tale of the Three Brothers'?",
-    "answer": "Antioch Peverell, Cadmus Peverell, and Ignotus Peverell",
-    "id": "c289fd3068ed323ecdffca54da651f42",
+    "question": "Which creature guides Frodo and Sam through Mordor?",
+    "answer": "Gollum",
+    "id": "378670b1c466f1ed06b565287ed49028",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the full name of the witch who was the Headmistress of Hogwarts during the events of 'The Cursed Child'?",
-    "answer": "Professor Minerva McGonagall",
-    "id": "0953bdc5e8f3ccbeead9753cd6e8bec8",
+    "question": "What is the symbol of Gondor’s kingship?",
+    "answer": "White Tree of Gondor",
+    "id": "87f75197e2c75b26a7bb23b03d490145",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the spell used to animate suits of armor and statues in the Battle of Hogwarts?",
-    "answer": "Piertotum Locomotor",
-    "id": "db2636e6b4c63f15eb27fada81fe8122",
+    "question": "Who forged the Three Elven Rings without Sauron's direct influence?",
+    "answer": "Celebrimbor",
+    "id": "42aaff03bdea1ab86b4ee4ba96fafcbf",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the full name of the author of 'A History of Magic'?",
-    "answer": "Bathilda Bagshot",
-    "id": "199345a49baedd157b2755a7696cfa4c",
+    "question": "What is the original name of Gandalf’s sword, Glamdring, in the First Age?",
+    "answer": "Turgon (King of Gondolin)",
+    "id": "5eb70e6af57bfe0cdb9d3c7810fb36c3",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the spell Hermione uses to erase her parents' memories of her?",
-    "answer": "Obliviate",
-    "id": "420e2063c4797f42b26f340b5976382b",
+    "question": "What is the Elvish name for Shelob's lair in the Ephel Dúath?",
+    "answer": "Torech Ungol",
+    "id": "6bfb3079d016d74c4b3fa1b93c4d74d8",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the plant that Neville Longbottom uses to help destroy one of Voldemort’s Horcruxes?",
-    "answer": "The plant isn’t used to destroy the Horcrux; instead, Neville uses Godric Gryffindor’s sword to destroy Nagini, the last Horcrux.",
-    "id": "b3e93f0079de1a00decccd66bb0f8154",
+    "question": "Which Silmaril is carried by Eärendil in the sky?",
+    "answer": "The one bound to his brow by the Valar",
+    "id": "f4d4b6f2e94548da5edd8831b89101a4",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the hidden organization founded by Dumbledore to fight Voldemort during the events of 'The Order of the Phoenix'?",
-    "answer": "Dumbledore's Army (commonly abbreviated as the DA)",
-    "id": "194f0063eddcb6372350d91f2e17473f",
+    "question": "Who were the parents of Gil-galad, the last High King of the Noldor?",
+    "answer": "Orodreth (per later writings) or Fingon (older canon)",
+    "id": "c700f151b54088ed282bafddcfcb3c3e",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Who was the Defense Against the Dark Arts professor during Harry’s second year at Hogwarts?",
-    "answer": "Gilderoy Lockhart",
-    "id": "75f31430f637942a3d6d22672f75deab",
+    "question": "What is the Sindarin name for the Shire?",
+    "answer": "Drann",
+    "id": "763942b03c94f73eacb0c7ae7cf373bb",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the spell used to conjure the Dark Mark?",
-    "answer": "Morsmordre",
-    "id": "6def755db06552632318396ced676d25",
+    "question": "What is the name of Elrond’s brother, founder of Númenor’s royal line?",
+    "answer": "Elros",
+    "id": "8aa7853b8c7348a7b643b952bb623bd9",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the potion that transforms the drinker into someone else for a short period?",
-    "answer": "Polyjuice Potion",
-    "id": "13c4c8574347923808f06072764922c2",
+    "question": "Which Vala is associated with dreams and visions in Valinor?",
+    "answer": "Irmo (Master of Lórien)",
+    "id": "7a600ea37abbb18b4c3a33345dcd534a",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Who was the first to escape from Azkaban prison?",
-    "answer": "Sirius Black",
-    "id": "1f7a5a14d47cae05d31bd61653aec8d5",
+    "question": "What was the original name of the river that flowed through Moria before its blockage?",
+    "answer": "Sirannon",
+    "id": "ff5f82a62ca6c7bbf5789fa46d217101",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What incantation is used to disarm an opponent?",
-    "answer": "Expelliarmus",
-    "id": "5ec9bab7065a13692ab6ed3a2b7dc63f",
+    "question": "Which Dwarf from Thorin’s company in The Hobbit is Gimli's father?",
+    "answer": "Glóin",
+    "id": "7883435db7987fd70beb982e2d38db03",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the house-elf who originally served the Black family?",
-    "answer": "Kreacher",
-    "id": "f7a75937f3a77d4b491eba427051e3cc",
+    "question": "Who crafted the winged helm of the King of Rohan, worn by Éomer?",
+    "answer": "None (it was an heirloom from the First Age)",
+    "id": "c1448306c5dee037f95c6121975b7b19",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Which magical creature is known for its ability to detect lies?",
-    "answer": "A Niffler is known for finding treasure, but a Jobberknoll's feathers are used in truth serums and Memory Potions.",
-    "id": "cc1b81e01ea7b7079292476ab8f4397a",
+    "question": "What is the Black Speech inscription on the One Ring?",
+    "answer": "Ash nazg durbatulûk, ash nazg gimbatul…",
+    "id": "e88f15183afc0358c1f8443b4ee981e8",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What magical object is used by Dumbledore to store and review memories?",
-    "answer": "Pensieve",
-    "id": "17f853252b39978aef103eb3df1c2086",
+    "question": "Which First Age battle saw the alliance of Men, Elves, and Dwarves against Morgoth?",
+    "answer": "Nirnaeth Arnoediad (Battle of Unnumbered Tears)",
+    "id": "a77b9653d7109f1c684d07b175940418",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the spell used to repel Dementors?",
-    "answer": "Expecto Patronum",
-    "id": "bf7fed9d9b87539ae216b53efcbfe22c",
+    "question": "What is Gandalf’s name in Valinor, before his arrival in Middle-earth?",
+    "answer": "Olórin",
+    "id": "eedcb6786f73ff0888280aa9d66c120b",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the potion that allows a wizard to survive underwater?",
-    "answer": "Gillyweed is used as an ingredient, but the potion itself isn't named; Gillyweed is eaten directly.",
-    "id": "a08fa3aaf2621243703d6a936f8e66b4",
+    "question": "Which of the Seven Dwarf-rings was given to Durin's House?",
+    "answer": "The Ring of Thrór",
+    "id": "27531aa2972f3f462497aec4dbe8e691",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the wizarding prison located in the North Sea?",
-    "answer": "Azkaban",
-    "id": "c550d595ecd2a9d111d6c7f73bcd70bf",
+    "question": "What is the full royal title Aragorn adopts after his coronation?",
+    "answer": "Elessar Telcontar, King of the Reunited Kingdom",
+    "id": "f4da750e6607c459623d931362acaabb",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the three-headed dog owned by Hagrid?",
-    "answer": "Fluffy",
-    "id": "df5a07bb466006d47d9458434eef4dbd",
+    "question": "Where does Saruman meet his ultimate demise in the books?",
+    "answer": "Bag End, the Shire (during the Scouring)",
+    "id": "12bc642d23ee35735d3135267c50ccdf",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the Weasley family's owl?",
-    "answer": "Errol",
-    "id": "501f4cc8b3c9a7a42e898fd1f9e5340a",
+    "question": "What is the Elvish term for the constellation Men call the Big Dipper?",
+    "answer": "Valacirca (Sickle of the Valar)",
+    "id": "c96b159e3df8ff6bf192af2903092e58",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the charm that creates a protective shield?",
-    "answer": "Protego",
-    "id": "7cdc031796e4cb7c270db94decf40667",
+    "question": "What is Aragorn’s horse named, gifted to him by Arwen?",
+    "answer": "Roheryn",
+    "id": "5ba8c8891f1ecae5e129204cb41e1a03",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Which magical plant is known for its restorative properties when brewed in a potion?",
-    "answer": "Mandrake (used to restore those who have been petrified)",
-    "id": "e1ed0b4fd5ecdffc6d42af13cebb94f5",
+    "question": "Which city was built by Númenóreans in exile before the rise of Gondor?",
+    "answer": "Pelargir",
+    "id": "c059c388da0e8d334ac5b2685baaf6fb",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What object did Harry use to destroy Tom Riddle’s diary?",
-    "answer": "A basilisk fang",
-    "id": "84be33d72b5a65a0489d76bba348bd17",
+    "question": "What is the name of Aragorn’s mother?",
+    "answer": "Gilraen",
+    "id": "724aa9c732da5e7b4d9bad1bdeb6a9d8",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the bridge that the trio crossed to escape Death Eaters in 'Harry Potter and the Deathly Hallows'?",
-    "answer": "The Millennium Bridge",
-    "id": "e2f7d83899a899ea4c83b521291c59d4",
+    "question": "What is the epithet of Fingolfin, High King of the Noldor, after his duel with Morgoth?",
+    "answer": "The Proud",
+    "id": "dc7ac5a1fd06a81a71ed6a4d5a2fda99",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the Weasley twins' joke shop?",
-    "answer": "Weasleys' Wizard Wheezes",
-    "id": "ddd591d704773e5b334ff592921530b2",
+    "question": "Which creature drags Oromë’s steed into the depths during the hunt for Morgoth?",
+    "answer": "Ungoliant (later Shelob's ancestor)",
+    "id": "4003b3228672fe45a95e76e289a58f26",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Who is the ghost of Ravenclaw House?",
-    "answer": "The Grey Lady (Helena Ravenclaw)",
-    "id": "bea99c7f641acea73511ea1a9cdce45a",
+    "question": "What is the name of the sword that cut the One Ring from Sauron’s hand?",
+    "answer": "Narsil",
+    "id": "e1822600bd1ef0c51fdae5b2b1ccc2b3",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the charm used to amplify the caster's voice?",
-    "answer": "Sonorus",
-    "id": "f06b1a61efdaa1df451d98c7410b9cad",
+    "question": "What is the name of Elwing’s fortress where she sheltered a Silmaril?",
+    "answer": "Havens of Sirion",
+    "id": "ab6d06f6e3ca0c8f53e9a8398e0ebb6e",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Who was Minister for Magic during the majority of Harry's time at Hogwarts?",
-    "answer": "Cornelius Fudge",
-    "id": "ecd4b823869f6ef7caaa6f76d94a6d8a",
+    "question": "Which Vala created the Two Trees of Valinor?",
+    "answer": "Yavanna",
+    "id": "57a1f1878eb8ac11835824cd7723466f",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the incantation for the spell used to conjure ropes?",
-    "answer": "Incarcerous",
-    "id": "86bb43b5ce8d62edb622bde93ff52998",
+    "question": "Who wrote The Lay of Leithian, the epic poem of Beren and Lúthien?",
+    "answer": "Thingol (commissioned by him)",
+    "id": "271999797ad670375cfc9cb589641cad",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Who is known for their quote, 'I am what I am, an’ I’m not ashamed'?",
-    "answer": "Rubeus Hagrid",
-    "id": "dffa7402c18d5def7dc2d278ac50a0cf",
+    "question": "What is the Quenya term for the 'Doom of the Noldor'?",
+    "answer": "Fëanor's Oath (Moringotto’s Curse)",
+    "id": "d2a30aca457ff1b0a10f51bada03ba44",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What are the names of Ron Weasley's two best friends?",
-    "answer": "Harry Potter and Hermione Granger",
-    "id": "ac0b29690eb0a456c35dd835ea0c7f88",
+    "question": "Which of Fëanor’s sons repented and refused to attack Eonwë at the War of Wrath?",
+    "answer": "Amrod and Amras (debated)",
+    "id": "42c12a6b2ef38b450997e845c2af9202",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Who replaced Katie Bell as Chaser on the Gryffindor Quidditch team in her absence?",
-    "answer": "Dean Thomas",
-    "id": "806e630eff53789ca111d9b26c77ed40",
+    "question": "What is the Sindarin name for the Great Bear constellation?",
+    "answer": "Menelvagor (Swordsman of the Sky)",
+    "id": "fc312c16df0e21a135cf23b1e0d00ea3",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the magical object that allows the user to hide or transport items, appearing as an ordinary object?",
-    "answer": "A Portkey",
-    "id": "09431b783438ca94d0e2b48d566a19e5",
+    "question": "Who slew Glaurung, the Father of Dragons?",
+    "answer": "Túrin Turambar",
+    "id": "8e03fe56e6f1b4fd275a926336b43972",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the incantation for the spell used to erase memories?",
-    "answer": "Obliviate",
-    "id": "a73c10ad27f3e579587d01bf83801f0e",
+    "question": "What was the Elessar stone’s original creator before Gandalf gifted it to Aragorn?",
+    "answer": "Celebrimbor (or Enerdhil, per alternate lore)",
+    "id": "3463551568e45b5e4f536893b1fb1742",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Which magical creature is known for its ability to explode when angry or threatened?",
-    "answer": "Erumpent",
-    "id": "13092a4e31864d090c1947c2def2b7c5",
+    "question": "Which Númenórean king sailed to Aman to challenge the Ban of the Valar?",
+    "answer": "Ar-Pharazôn the Golden",
+    "id": "d8ed9a9546298de0441cff476e95ffd4",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the potion that grants temporary luck to the drinker?",
-    "answer": "Felix Felicis",
-    "id": "8aaa783c2f038043452abf13151d6f82",
+    "question": "Whose spirit haunted the Dead Marshes after the Battle of Dagorlad?",
+    "answer": "Elendil’s soldiers and Sauron’s forces (unquiet dead)",
+    "id": "4ded55ee55d945391e5e7f72cf4a8457",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Who is the author of 'The Standard Book of Spells' series used at Hogwarts?",
-    "answer": "Miranda Goshawk",
-    "id": "6b4769ffad0a1244a3c6e8027de25fd9",
+    "question": "What is the Annatar persona of Sauron forbidden by Gil-galad?",
+    "answer": "Lord of Gifts (used to deceive Celebrimbor)",
+    "id": "62629e72f010f5c9043afc57d695f450",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of Hagrid's giant half-brother?",
-    "answer": "Grawp",
-    "id": "7fb5fd2ec2e5f461ad0996cf178031b0",
+    "question": "Which Elf-lord invented the Tengwar script?",
+    "answer": "Fëanor",
+    "id": "3a602a705f96364f45418db925d122d6",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the object that Voldemort uses to split and conceal parts of his soul?",
-    "answer": "Horcrux",
-    "id": "d7536af308b848a42989616233b6fb5d",
+    "question": "What was the final fate of Morgoth after the War of Wrath?",
+    "answer": "Cast into the Void through the Door of Night",
+    "id": "52719dbfd601e2ed5f8ac2f1236d5a03",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Which spell is used to repair broken objects?",
-    "answer": "Reparo",
-    "id": "9c43755f42d8330b262aea0ba654cdd4",
+    "question": "What is the name of Aragorn’s broken blade before it is reforged as Andúril?",
+    "answer": "Narsil",
+    "id": "09b741cdd046cf6f6b15400eb5c2335a",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the charm used to conjure water?",
-    "answer": "Aguamenti",
-    "id": "8533889b489a9f4b0976e8b107df0c36",
+    "question": "Which of the Nine Ringwraiths was a Númenórean king?",
+    "answer": "Khamûl the Easterling (not Númenórean; corrected: None)",
+    "id": "eb756babef1d5d938198b6471eb14b69",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the number on the vault that held the Philosopher's Stone in Gringotts?",
-    "answer": "Vault 713",
-    "id": "a84bac27d68e48502319b285a9b8039d",
+    "question": "Who prophecies that the Witch-king ‘will not die by the hand of man’?",
+    "answer": "Glorfindel",
+    "id": "93343b24ed02418c111b8e104f2150f0",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What unusual form does Seamus Finnigan's Patronus take?",
-    "answer": "Fox",
-    "id": "6dc1ad66337217b1d86068ea8c7e34e8",
+    "question": "What is the Quenya term for the gift of mortality given to Men?",
+    "answer": "Fëa hröa (Hröa)",
+    "id": "752eae65405669a980e1db74bf352e1c",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the full name of the witch whose portrait hangs in the Gryffindor common room entrance?",
-    "answer": "The Fat Lady",
-    "id": "500e2b5d94fcfabeb9c4ecf06fad122f",
+    "question": "Which mountain pass did Morgoth’s forces use to invade Beleriand?",
+    "answer": "Pass of Aglon",
+    "id": "bc15586619e2b3bf8df4bad5dec03f95",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the broom model that Draco Malfoy receives in his second year?",
-    "answer": "Nimbus 2001",
-    "id": "8c3c85e68a1bdca6349e6293a6b4a69e",
+    "question": "What is the name of the sword reforged from Anglachel?",
+    "answer": "Gurthang (wielded by Túrin)",
+    "id": "23dc539d08993d2e1f0688f72a664c79",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of Aragog's wife?",
-    "answer": "Mosag",
-    "id": "1a9c8b40028dfe820126f378f9db6995",
+    "question": "Who destroyed the One Ring in the first version of Tolkien’s legendarium?",
+    "answer": "Gollum (in early drafts, before Frodo was created)",
+    "id": "c3e771d262fd6e0eba9d36a60093afbc",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What was the name of the goblin who showed Harry to his vault the first time he visited Gringotts?",
-    "answer": "Griphook",
-    "id": "0ec2da7349cd97f3edd0e421bd8f0bd4",
+    "question": "What is the Dwarvish name for the Lonely Mountain?",
+    "answer": "Erebor",
+    "id": "4fd1e5421b81a84bed6cbf70bd1fb95e",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the full name of the witch who invented the Wolfsbane Potion?",
-    "answer": "Damocles Belby",
-    "id": "b99aa3e95aca2064f7714f28e02e44dc",
+    "question": "Which Vala is responsible for the creation of Orcs?",
+    "answer": "None (they were corrupted Elves/creations of Morgoth)",
+    "id": "c05a5ee19f9f89d75f7dd9fabfcf04cd",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What fruit must you tickle to gain entrance to the Hogwarts kitchens?",
-    "answer": "A pear",
-    "id": "629efb7efb777460333709e1e65409be",
+    "question": "What is the Ainulindalë?",
+    "answer": "The Music of the Ainur (creation myth)",
+    "id": "b8773a8342356111a637e5e318ab8582",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the exam taken by Hogwarts students in their seventh year?",
-    "answer": "N.E.W.T.s (Nastily Exhausting Wizarding Tests)",
-    "id": "93eb4ca5bbdb0ea28bd081cf0c38b456",
+    "question": "Who is the Steward of Gondor before Denethor II?",
+    "answer": "Ecthelion II",
+    "id": "02629c5d36ce8fe4638102e41f2417b7",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What was the original name of the Knight Bus conductor before J.K. Rowling changed it to Stan Shunpike?",
-    "answer": "Dexter Fortescue",
-    "id": "3d3af465e65ed81dce12bc2b183b025f",
+    "question": "Which river separated Rohan and Gondor?",
+    "answer": "Anduin (Straight answer: The Mering Stream)",
+    "id": "34e18454cc2ef13b41f1871a9bfa6974",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the full name of Nearly Headless Nick?",
-    "answer": "Sir Nicholas de Mimsy-Porpington",
-    "id": "4eb852571f6815f0eaa1c98214bf8248",
+    "question": "Who guards the final Ring of Power given to Tom Bombadil?",
+    "answer": "None (he is unaffected by it)",
+    "id": "acd15f6decfd7b84ebbf84899ea6e4c6",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the incantation for the spell used to make invisible ink appear?",
-    "answer": "Aparecium",
-    "id": "f6a1a141a7879b35c23a114f927bff99",
+    "question": "What is the name of the river that flows through Lothlórien?",
+    "answer": "Celebrant",
+    "id": "42dc52e8da5db37ba48645d83e248050",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the room in the Department of Mysteries that contains a tank full of brains?",
-    "answer": "The Brain Room",
-    "id": "7d43dc7d14e6ad28e2593f4b8b58678e",
+    "question": "Who is the King of the Woodland Realm during the events of 'The Hobbit'?",
+    "answer": "Thranduil",
+    "id": "43059a21d5a59a6418acba3ed1a131ba",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the magical theory that states that a wizard's power correlates with their mastery over their own emotions?",
-    "answer": "The Law of Elemental Transfiguration",
-    "id": "4dafdb0a9f3d6f6b3a1839663dac9172",
+    "question": "What is the name of the inn where Frodo meets Aragorn in Bree?",
+    "answer": "The Prancing Pony",
+    "id": "16677d1d732fece84ab5b695d5404f51",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Which magical creature is used as the core in Fleur Delacour's wand?",
-    "answer": "Veela hair",
-    "id": "1c05dda905ff224443dca9c11dd38ee9",
+    "question": "Who is known as the Lady of the Wood?",
+    "answer": "Galadriel",
+    "id": "8a3bbdb12a92252513e62c3cde181807",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the plant that screams when uprooted, used in the second year to cure petrified victims?",
-    "answer": "Mandrake",
-    "id": "6a77a7d0eca0b01c2de8fbc879f72721",
+    "question": "What is the name of the mountain range bordering Mordor?",
+    "answer": "Ephel Dúath",
+    "id": "c819217995d9fc2df3bed9fc392d0973",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the full name of the wizard who invented the Golden Snitch?",
-    "answer": "Bowman Wright",
-    "id": "f1828cc36872dea8dff1a38012c53f69",
+    "question": "Which character is known as the 'Spider of Cirith Ungol'?",
+    "answer": "Shelob",
+    "id": "f3a5896b3e3b123bd30e282e7cae2e33",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the Slytherin Quidditch captain during Harry's first year?",
-    "answer": "Marcus Flint",
-    "id": "1faa01b65ab886f8029cf3f7419a1140",
+    "question": "What is the name of the ship that takes Frodo to the Undying Lands?",
+    "answer": "White Ship",
+    "id": "62ed6f044d00cd73aed700adb6ac36b2",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the incantation used to summon an object to the caster?",
-    "answer": "Accio",
-    "id": "a375bab039dc8479b71015dc2cc2e4e7",
+    "question": "Who reforged the shards of Narsil into Andúril?",
+    "answer": "Elves of Rivendell",
+    "id": "e9477e8f6b3f353c59ef09d2136eed1e",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Which character replaces Cornelius Fudge as Minister for Magic?",
-    "answer": "Rufus Scrimgeour",
-    "id": "f8a80e26502a3b95439d9ae9f8a2f1b1",
+    "question": "Who is the father of Legolas?",
+    "answer": "Thranduil",
+    "id": "f7e96da745b861124e9e690b155b5fa1",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the book Hermione receives as a Christmas present from her parents in her third year?",
-    "answer": "The Monster Book of Monsters",
-    "id": "4aaa4cd123b28c4e3708d395cb48ff0b",
+    "question": "What is the other name for the Black Gate of Mordor?",
+    "answer": "Morannon",
+    "id": "87e08b1c0556fcb6e004ccdd680881a8",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the witch who is the head of the Department of Magical Law Enforcement before Dolores Umbridge?",
-    "answer": "Amelia Bones",
-    "id": "7b41a65315e0082e48611c558429d281",
+    "question": "What is the name of the inn where Frodo and his companions stay in Bree?",
+    "answer": "The Prancing Pony",
+    "id": "76d44df1f5fb13e2564ab3f013f367eb",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Who was the first student to be petrified during the reopening of the Chamber of Secrets?",
-    "answer": "Mrs. Norris (Argus Filch's cat)",
-    "id": "e73edd98345a86a5571e58165fc52249",
+    "question": "Who is the leader of the Nazgûl?",
+    "answer": "The Witch-king of Angmar",
+    "id": "87be08fdc31177e0140539ec2c202270",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the centaur who opposed Firenze's decision to aid Harry Potter?",
-    "answer": "Bane",
-    "id": "498aee480e7ae7bb30a2037b5e978145",
+    "question": "What is the name of the realm where Galadriel and Celeborn rule?",
+    "answer": "Lothlórien",
+    "id": "bc6332764b2c447802d2ca894d442958",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What are the names of Severus Snape's parents?",
-    "answer": "Eileen Prince and Tobias Snape",
-    "id": "00e4e7d4c8cf7e1cc2ad709c59afac9c",
+    "question": "Who is the captain of the Grey Company that joins Aragorn?",
+    "answer": "Halbarad",
+    "id": "1d081dbfc131c4b8ef27b9add5188ff3",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the tree on the Hogwarts grounds planted to protect Remus Lupin during his transformations?",
-    "answer": "The Whomping Willow",
-    "id": "e1822f8f1bc6cd1718755b9e41275355",
+    "question": "Which creature did Samwise Gamgee fight and defeat in Cirith Ungol?",
+    "answer": "Shelob",
+    "id": "3d93c02abe29bddb8dc0136a1f6deb34",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the owl that delivered Harry's first Hogwarts letter?",
-    "answer": "No specific owl is named for delivering Harry's letter; it was delivered by multiple owls.",
-    "id": "26c5c590dc8d5b64412bed48a3ac04f9",
+    "question": "Who is the owner of Bag End before Frodo?",
+    "answer": "Bilbo Baggins",
+    "id": "35e7ab8230e6df7da22a13d3fc5673d7",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Which witch or wizard is known for inventing the Wolfsbane Potion?",
-    "answer": "Damocles Belby",
-    "id": "967f39b6bbeaaa5cd2aef615506c7555",
+    "question": "What is the name of the Ent who befriends Merry and Pippin?",
+    "answer": "Treebeard",
+    "id": "fa8f2d634a7a27adb0ca0fad62aa17c8",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the potion that Hermione Granger uses to change her appearance into Bellatrix Lestrange?",
-    "answer": "Polyjuice Potion",
-    "id": "31af70ce103d027e0bf4af4dcca45ab9",
+    "question": "Who is the father of Gimli?",
+    "answer": "Glóin",
+    "id": "63eb0e1cfe4a5ece2e255a843725126f",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What does the spell 'Deletrius' do?",
-    "answer": "Erases the effect of the Prior Incantato spell",
-    "id": "5f8cfcb8c9d1678080823e7844ae3cae",
+    "question": "What is the name of the ancient sword found by Bilbo in the troll hoard?",
+    "answer": "Sting",
+    "id": "ecc189f2d670a5c7f345d44960328da1",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the full name of the wizard who was the original owner of the Elder Wand according to 'The Tale of the Three Brothers'?",
-    "answer": "Antioch Peverell",
-    "id": "bc432e79e0c93b9e547b61381a3f3a4c",
+    "question": "Which river runs through the Shire?",
+    "answer": "Brandywine River",
+    "id": "146fc03596938e61356b80a1bfdc0515",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the book that is required reading for first-year Hogwarts students in Herbology?",
-    "answer": "One Thousand Magical Herbs and Fungi",
-    "id": "a424b169c0e0f6a975ce4637c9e1900b",
+    "question": "Who is the Lord of Rivendell?",
+    "answer": "Elrond",
+    "id": "64c3da25e8a0318a1451087cdebacda8",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the incantation for the spell that causes its target to inflate like a balloon?",
-    "answer": "Engorgio",
-    "id": "fcaff31516ad28c42d1ef41f057be198",
+    "question": "What is the name of the gate that serves as the entrance to Mordor?",
+    "answer": "Black Gate",
+    "id": "1aff9ce51f55c716fb648e9df7f36d6a",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the wizarding village where the Dursleys take a vacation in 'Harry Potter and the Philosopher's Stone'?",
-    "answer": "Cokeworth",
-    "id": "f5381a5191a3c3a76742986486630673",
+    "question": "Who is the mother of Aragorn?",
+    "answer": "Gilraen",
+    "id": "b87d745c392638220801217275e7c18a",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the Death Eater who was stationed in the Department of Mysteries during the Battle of the Department of Mysteries?",
-    "answer": "Augustus Rookwood",
-    "id": "43ba6a6077ed47e98a64b6a9c6376179",
+    "question": "What is the name of the battle where Rohan rides to the aid of Gondor?",
+    "answer": "Battle of the Pelennor Fields",
+    "id": "aa119f88d8f050b3b5d529858c791290",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the owner of the Leaky Cauldron during Harry's time at Hogwarts?",
-    "answer": "Tom",
-    "id": "90666dff0200511cfa9bd838083ff4de",
+    "question": "Who becomes King of Rohan after Théoden's death?",
+    "answer": "Éomer",
+    "id": "0b71e5ef1e9d06c661aa114a64ca0a84",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of Hermione Granger's cat?",
-    "answer": "Crookshanks",
-    "id": "cf154c3f1c2e91c7670720ee82f9e772",
+    "question": "What is the name of the tower where Saruman resides?",
+    "answer": "Orthanc",
+    "id": "621f3f0fff7ff5ea43ec3f99f1a8594a",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the Quidditch move designed to deceive the opposing team by pretending to catch the Snitch?",
-    "answer": "The Wronski Feint",
-    "id": "55feb82a16df153dc83ada416f60e2e2",
+    "question": "Who is the main antagonist in 'The Hobbit'?",
+    "answer": "Smaug",
+    "id": "56c22b98e7af588415e4b8da3254e294",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the wizard who betrayed Harry Potter's parents to Voldemort?",
-    "answer": "Peter Pettigrew",
-    "id": "f185c6736e808f925c14e91fe97eb523",
+    "question": "What is the name of the dark forest that the Fellowship travels through after Moria?",
+    "answer": "Lothlórien",
+    "id": "fd8a1af6543013577fa959a291a1bfe3",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the hidden room at Hogwarts that only appears when someone is in great need of it?",
-    "answer": "The Room of Requirement",
-    "id": "00085d85db5ac0ec4b14c6fc38024e47",
+    "question": "Who is the sister of Éomer?",
+    "answer": "Éowyn",
+    "id": "c7287e0477e02d5246746d96b0e37999",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the full name of the witch who was the first female Minister for Magic?",
-    "answer": "Millicent Bagnold",
-    "id": "55342b413188a59077e607985b29f265",
+    "question": "What is the name of the forest that lies on the western side of the Misty Mountains?",
+    "answer": "Fangorn Forest",
+    "id": "ff51ee4383a9b1d38d6fe37335f67567",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the goblin who serves as the head of Gringotts Wizarding Bank during the Second Wizarding War?",
-    "answer": "Ragnok",
-    "id": "b1d1143a6a8256a10625a82620ac6634",
+    "question": "Who is the steward of Gondor before Denethor II?",
+    "answer": "Ecthelion II",
+    "id": "b29883d87db46bebbc61549ff0567819",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the spell that is used to conjure birds from the tip of the wand?",
-    "answer": "Avis",
-    "id": "d3b969e6eba528f297a48f300e20f219",
+    "question": "What is the name of Tom Bombadil's wife?",
+    "answer": "Goldberry",
+    "id": "8d52e81d86a9c625e2689998fff4a4d0",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the tea shop in Hogsmeade where Harry and Cho have an awkward date?",
-    "answer": "Madam Puddifoot's Tea Shop",
-    "id": "fe29fa50a5674dbcf5dd9cb318bc2a62",
+    "question": "Who is known as the 'Evenstar' of her people?",
+    "answer": "Arwen",
+    "id": "22ad8c0238a6fb4a0bf7de066d6b70e3",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the full name of the author of 'Magical Theory,' a book used by first-year students at Hogwarts?",
-    "answer": "Adalbert Waffling",
-    "id": "2a47edec1b9798569ff9e57cf56f2f42",
+    "question": "What is the name of the horse that Gandalf rides?",
+    "answer": "Shadowfax",
+    "id": "a014a041274d748c2608655603a20a71",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the potion that is known as 'Liquid Luck'?",
-    "answer": "Felix Felicis",
-    "id": "80d3dc5008a2ed23e5433f4f7350d6ad",
+    "question": "Who is the first bearer of the One Ring?",
+    "answer": "Sauron",
+    "id": "1cfc91dd9efd3a4aa7cf26837921af89",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the wizard who establishes the first magical school in America, Ilvermorny?",
-    "answer": "Isolt Sayre",
-    "id": "ff3f0b5142716a24d2bd22109ee55746",
+    "question": "What is the name of the elven city in the hidden valley?",
+    "answer": "Rivendell",
+    "id": "57496ee7ffbf08ba7f764118cc6c868a",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the charm used to repel water?",
-    "answer": "Impervius",
-    "id": "18b1dabc9e2d485ba88f9afbae7ce931",
+    "question": "Who is the original owner of the sword Glamdring?",
+    "answer": "Turgon",
+    "id": "2335cbb93f896019e289a2b1cbc40259",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the spell that causes objects to shrink?",
-    "answer": "Reducio",
-    "id": "33acb85c9107bb8795a6aa8d97df18ee",
+    "question": "What is the name of the mountain where Smaug hoards his treasure?",
+    "answer": "Lonely Mountain",
+    "id": "9d46cb7d4e6e0b36eabb1a8841e7e75f",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the wizarding sweetshop located in Hogsmeade?",
-    "answer": "Honeydukes",
-    "id": "9b0d9fd49e24372320c42f28ac7d91ea",
+    "question": "Which city is known as the City of the Kings?",
+    "answer": "Minas Tirith",
+    "id": "6605082b34781a3dcefd94ad569abf00",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the full name of the witch who was known as 'The Mother of Modern Witchcraft'?",
-    "answer": "Elfrida Clagg",
-    "id": "1088bbbbd6e937dff81466fe082163c5",
+    "question": "Who is the Dark Lord before Sauron?",
+    "answer": "Morgoth",
+    "id": "fe1aa8e3d2a33edbd30f6c43069d2821",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the spell that can banish a Boggart?",
-    "answer": "Riddikulus",
-    "id": "111ec3914b041a8c75219b87f49b56f1",
+    "question": "Who leads the elves at the Battle of Helm’s Deep?",
+    "answer": "Haldir",
+    "id": "534218a5dfa23ee029e723d8342f9ffc",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the magical creature that resembles a black dog and is considered an omen of death?",
-    "answer": "The Grim",
-    "id": "643078f23100abb03354336bbbcad767",
+    "question": "What is the name of the ancient kingdom that Aragorn is heir to?",
+    "answer": "Gondor",
+    "id": "0c5d8edbd4253d6ab217af7784747a5a",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the shop where Harry buys his wand?",
-    "answer": "Ollivanders",
-    "id": "5e0a601b1168a43b3d9eff64f6dceb44",
+    "question": "Who is the elven smith who crafted the Three Rings?",
+    "answer": "Celebrimbor",
+    "id": "cde474fbb793bc7f99125dc7db7db329",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the magical prison that Grindelwald is imprisoned in?",
-    "answer": "Nurmengard",
-    "id": "36878753ee45d9a754dd2390768e745a",
+    "question": "What is the name of the evil fortress in Mirkwood?",
+    "answer": "Dol Guldur",
+    "id": "9a11cf6ab8c820e93aaf1b5adba10cdf",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the plant that when matured, releases spores that can cause memory loss?",
-    "answer": "Leaping Toadstools",
-    "id": "ae16fd09b601e58fabaaabe70f4fdf56",
+    "question": "Who is the Dwarf that accompanies Bilbo on his journey in 'The Hobbit'?",
+    "answer": "Thorin Oakenshield",
+    "id": "0ace72b9fe68925a8601eefef1e50155",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the witch who was the Headmistress of Beauxbatons Academy of Magic during the Triwizard Tournament?",
-    "answer": "Madame Olympe Maxime",
-    "id": "1fa1fa101cdc9dbbc13dd9faa053f059",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the incantation for the spell that Hermione uses to make her bag have an undetectable extension charm?",
-    "answer": "There is no specific incantation mentioned; Hermione uses an Undetectable Extension Charm.",
-    "id": "bac1713f97e39a89f587b25b5cf8622b",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the wizard who created the first Philosopher’s Stone?",
-    "answer": "Nicolas Flamel",
-    "id": "13ae183f8c3c866e6c931e85b776b16a",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the exact date of the final duel between Harry and Voldemort at the Battle of Hogwarts?",
-    "answer": "May 2, 1998",
-    "id": "120eeb28015a5aba26b65d9a6988fd99",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which phoenix’s tail feather cores both Harry’s and Voldemort’s wands?",
-    "answer": "Fawkes",
-    "id": "cdd30671256a11381d280a92023270e7",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the full name of the collector who owned Helga Hufflepuff’s cup before Voldemort stole it?",
-    "answer": "Hepzibah Smith",
-    "id": "6853a272b1ff341d9034aaccd49b58b1",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the Latin motto inscribed on the Hogwarts crest, and what is its English translation?",
-    "answer": "Draco Dormiens Nunquam Titillandus ('Never tickle a sleeping dragon')",
-    "id": "3e1d0cec05327a7ad399ba987004670d",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "How many Knuts are equivalent to one Galleon in British wizarding currency?",
-    "answer": "493 (29 Knuts/Sickle × 17 Sickles/Galleon)",
-    "id": "c8e79f5ab5a37c0b2f39064be9029324",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What incantation does Snape invent to hoist a victim upside-down by their ankle?",
-    "answer": "Levicorpus",
-    "id": "2fc3935dc4bea8f0ce1a3d8eb7de46a2",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which breed of dragon did Fleur Delacour face in the Triwizard Tournament’s first task?",
-    "answer": "Welsh Green",
-    "id": "a14b767e9f9c3bf7dbddd08b922bc958",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What spell creates a fiery whip-like rope to bind enemies, used by Hermione in Deathly Hallows?",
-    "answer": "Incarcerous",
-    "id": "1fb522005c60ed786c19f775d1173ede",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What was the alias given to Hermione’s parents after she modified their memories?",
-    "answer": "Monica and Wendell Wilkins",
-    "id": "2b7cad472f97835999a682ac1ca52dbd",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What item did Dumbledore bequeath to Ron Weasley in his will?",
-    "answer": "The Deluminator",
-    "id": "c179b19c4ac3417f147823043406ffd6",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which spell counteracts Alohomora by magically locking doors?",
-    "answer": "Colloportus",
-    "id": "527b12c76999ece0f6f6e38936e723a8",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who was the Seeker for the Irish National Quidditch team during the 1994 World Cup?",
-    "answer": "Aidan Lynch",
-    "id": "8d37f5b7565fb38aa1ce691550c92c59",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What spell did Hermione use to create a protective boundary around their camp in Deathly Hallows?",
-    "answer": "Salvio Hexia",
-    "id": "8eafd1c8dfc2af557ef64449484a652f",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which witch introduced the Werewolf Code of Conduct to the Wizengamot in 1637?",
-    "answer": "Elfrida Clagg",
-    "id": "7413ac822c69b94b3e12d918c8d99932",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the Healer who treated Arthur Weasley after Nagini’s attack in Order of the Phoenix?",
-    "answer": "Hippocrates Smethwyck",
-    "id": "e74206ac5a575e52e4178ccb47fadf65",
+    "question": "Which character is known as the 'Gollum'?",
+    "answer": "Sméagol",
+    "id": "98981456195516120926f750b888ca2b",
     "difficulty": "unmarked",
     "httpsource": "#"
   }
