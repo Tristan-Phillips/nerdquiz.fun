@@ -8,63 +8,63 @@
   },
   {
     "question": "Who is the rightful heir to the throne of Gondor?",
-    "answer": "Aragorn",
+    "answer": "Aragorn (son of Arathorn II, also known as Elessar Telcontar)",
     "id": "acdeef4a4a224f10dd1678a96330e3e3",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of Aragorn’s reforged sword?",
-    "answer": "Andúril",
-    "id": "45dc931e66b5a31d5f2f3c1456463908",
+    "question": "What is the name of Aragorn’s reforged sword, originally broken after the defeat of Sauron in the Second Age?",
+    "answer": "Andúril (the Flame of the West)",
+    "id": "b4650e343c904121d59cd4b7222e2e0e",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
     "question": "Which wizard falls to the Balrog in Moria?",
-    "answer": "Gandalf the Grey",
+    "answer": "Gandalf the Grey (Olórin in Valinor)",
     "id": "77f3276a6a735699e72eaa435fc0f44d",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
     "question": "Who is the ruler of Rohan during the War of the Ring?",
-    "answer": "Théoden",
+    "answer": "Théoden (son of Thengel)",
     "id": "a428600da2f7a9d395b571881f501606",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
     "question": "Which creature calls the One Ring 'my precious'?",
-    "answer": "Gollum",
+    "answer": "Gollum (originally Sméagol, a Stoor Hobbit)",
     "id": "4d93517c8f32dba8f6191c9a626c641b",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
     "question": "Where is the One Ring forged and destroyed?",
-    "answer": "Mount Doom",
+    "answer": "Mount Doom (Orodruin in Mordor)",
     "id": "f146a96c05484cbdba6f1fd54144bb3a",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
     "question": "Who is the Dark Lord seeking the One Ring?",
-    "answer": "Sauron",
+    "answer": "Sauron (formerly Mairon, a servant of Morgoth)",
     "id": "57f0f03561d68e96dbf454556d689783",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
     "question": "Which elf gives Frodo the Light of Eärendil?",
-    "answer": "Galadriel",
+    "answer": "Galadriel (Lady of the Wood)",
     "id": "36445d1836b7c9a6ffc8f185f981b34d",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
     "question": "What is the name of the Fellowship’s dwarf member?",
-    "answer": "Gimli",
+    "answer": "Gimli (son of Glóin)",
     "id": "05daea08483ac8badf84807149fb627b",
     "difficulty": "unmarked",
     "httpsource": "#"
@@ -78,7 +78,7 @@
   },
   {
     "question": "Who is the steward of Gondor during the War of the Ring?",
-    "answer": "Denethor",
+    "answer": "Denethor II",
     "id": "51577300e94125fa0a60b9d874b99e1c",
     "difficulty": "unmarked",
     "httpsource": "#"
@@ -92,14 +92,14 @@
   },
   {
     "question": "Which cursed blade does Merry use to injure the Witch-king?",
-    "answer": "Barrow-blade",
+    "answer": "Barrow-blade (from the Barrow-downs)",
     "id": "0d7668595b8e075d05045801eecf49bb",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
     "question": "Who kills the Witch-king of Angmar?",
-    "answer": "Éowyn and Merry",
+    "answer": "Éowyn (daughter of Éomund) and Merry (Meriadoc Brandybuck)",
     "id": "1990861282e0b31bdabd2b4cbf29df29",
     "difficulty": "unmarked",
     "httpsource": "#"
@@ -127,7 +127,7 @@
   },
   {
     "question": "Where do the Hobbits destroy the One Ring?",
-    "answer": "Mount Doom",
+    "answer": "Mount Doom (Orodruin in Mordor)",
     "id": "57e72fb8eaf08497d658d1dddc65462b",
     "difficulty": "unmarked",
     "httpsource": "#"
@@ -141,7 +141,7 @@
   },
   {
     "question": "Which creature guides Frodo and Sam through Mordor?",
-    "answer": "Gollum",
+    "answer": "Gollum (Sméagol)",
     "id": "378670b1c466f1ed06b565287ed49028",
     "difficulty": "unmarked",
     "httpsource": "#"
@@ -183,7 +183,7 @@
   },
   {
     "question": "Who were the parents of Gil-galad, the last High King of the Noldor?",
-    "answer": "Orodreth (per later writings) or Fingon (older canon)",
+    "answer": "Orodreth (per later writings)",
     "id": "c700f151b54088ed282bafddcfcb3c3e",
     "difficulty": "unmarked",
     "httpsource": "#"
@@ -260,7 +260,7 @@
   },
   {
     "question": "What is the full royal title Aragorn adopts after his coronation?",
-    "answer": "Elessar Telcontar, King of the Reunited Kingdom",
+    "answer": "Elessar Telcontar, King of the Reunited Kingdom of Gondor and Arnor",
     "id": "f4da750e6607c459623d931362acaabb",
     "difficulty": "unmarked",
     "httpsource": "#"
@@ -421,7 +421,7 @@
   },
   {
     "question": "Which of the Nine Ringwraiths was a Númenórean king?",
-    "answer": "Khamûl the Easterling (not Númenórean; corrected: None)",
+    "answer": "None (Khamûl the Easterling was not Númenórean)",
     "id": "eb756babef1d5d938198b6471eb14b69",
     "difficulty": "unmarked",
     "httpsource": "#"
@@ -491,7 +491,7 @@
   },
   {
     "question": "Which river separated Rohan and Gondor?",
-    "answer": "Anduin (Straight answer: The Mering Stream)",
+    "answer": "The Mering Stream",
     "id": "34e18454cc2ef13b41f1871a9bfa6974",
     "difficulty": "unmarked",
     "httpsource": "#"
@@ -500,328 +500,6 @@
     "question": "Who guards the final Ring of Power given to Tom Bombadil?",
     "answer": "None (he is unaffected by it)",
     "id": "acd15f6decfd7b84ebbf84899ea6e4c6",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the river that flows through Lothlórien?",
-    "answer": "Celebrant",
-    "id": "42dc52e8da5db37ba48645d83e248050",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who is the King of the Woodland Realm during the events of 'The Hobbit'?",
-    "answer": "Thranduil",
-    "id": "43059a21d5a59a6418acba3ed1a131ba",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the inn where Frodo meets Aragorn in Bree?",
-    "answer": "The Prancing Pony",
-    "id": "16677d1d732fece84ab5b695d5404f51",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who is known as the Lady of the Wood?",
-    "answer": "Galadriel",
-    "id": "8a3bbdb12a92252513e62c3cde181807",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the mountain range bordering Mordor?",
-    "answer": "Ephel Dúath",
-    "id": "c819217995d9fc2df3bed9fc392d0973",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which character is known as the 'Spider of Cirith Ungol'?",
-    "answer": "Shelob",
-    "id": "f3a5896b3e3b123bd30e282e7cae2e33",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the ship that takes Frodo to the Undying Lands?",
-    "answer": "White Ship",
-    "id": "62ed6f044d00cd73aed700adb6ac36b2",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who reforged the shards of Narsil into Andúril?",
-    "answer": "Elves of Rivendell",
-    "id": "e9477e8f6b3f353c59ef09d2136eed1e",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who is the father of Legolas?",
-    "answer": "Thranduil",
-    "id": "f7e96da745b861124e9e690b155b5fa1",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the other name for the Black Gate of Mordor?",
-    "answer": "Morannon",
-    "id": "87e08b1c0556fcb6e004ccdd680881a8",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the inn where Frodo and his companions stay in Bree?",
-    "answer": "The Prancing Pony",
-    "id": "76d44df1f5fb13e2564ab3f013f367eb",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who is the leader of the Nazgûl?",
-    "answer": "The Witch-king of Angmar",
-    "id": "87be08fdc31177e0140539ec2c202270",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the realm where Galadriel and Celeborn rule?",
-    "answer": "Lothlórien",
-    "id": "bc6332764b2c447802d2ca894d442958",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who is the captain of the Grey Company that joins Aragorn?",
-    "answer": "Halbarad",
-    "id": "1d081dbfc131c4b8ef27b9add5188ff3",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which creature did Samwise Gamgee fight and defeat in Cirith Ungol?",
-    "answer": "Shelob",
-    "id": "3d93c02abe29bddb8dc0136a1f6deb34",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who is the owner of Bag End before Frodo?",
-    "answer": "Bilbo Baggins",
-    "id": "35e7ab8230e6df7da22a13d3fc5673d7",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the Ent who befriends Merry and Pippin?",
-    "answer": "Treebeard",
-    "id": "fa8f2d634a7a27adb0ca0fad62aa17c8",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who is the father of Gimli?",
-    "answer": "Glóin",
-    "id": "63eb0e1cfe4a5ece2e255a843725126f",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the ancient sword found by Bilbo in the troll hoard?",
-    "answer": "Sting",
-    "id": "ecc189f2d670a5c7f345d44960328da1",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which river runs through the Shire?",
-    "answer": "Brandywine River",
-    "id": "146fc03596938e61356b80a1bfdc0515",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who is the Lord of Rivendell?",
-    "answer": "Elrond",
-    "id": "64c3da25e8a0318a1451087cdebacda8",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the gate that serves as the entrance to Mordor?",
-    "answer": "Black Gate",
-    "id": "1aff9ce51f55c716fb648e9df7f36d6a",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who is the mother of Aragorn?",
-    "answer": "Gilraen",
-    "id": "b87d745c392638220801217275e7c18a",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the battle where Rohan rides to the aid of Gondor?",
-    "answer": "Battle of the Pelennor Fields",
-    "id": "aa119f88d8f050b3b5d529858c791290",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who becomes King of Rohan after Théoden's death?",
-    "answer": "Éomer",
-    "id": "0b71e5ef1e9d06c661aa114a64ca0a84",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the tower where Saruman resides?",
-    "answer": "Orthanc",
-    "id": "621f3f0fff7ff5ea43ec3f99f1a8594a",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who is the main antagonist in 'The Hobbit'?",
-    "answer": "Smaug",
-    "id": "56c22b98e7af588415e4b8da3254e294",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the dark forest that the Fellowship travels through after Moria?",
-    "answer": "Lothlórien",
-    "id": "fd8a1af6543013577fa959a291a1bfe3",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who is the sister of Éomer?",
-    "answer": "Éowyn",
-    "id": "c7287e0477e02d5246746d96b0e37999",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the forest that lies on the western side of the Misty Mountains?",
-    "answer": "Fangorn Forest",
-    "id": "ff51ee4383a9b1d38d6fe37335f67567",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who is the steward of Gondor before Denethor II?",
-    "answer": "Ecthelion II",
-    "id": "b29883d87db46bebbc61549ff0567819",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of Tom Bombadil's wife?",
-    "answer": "Goldberry",
-    "id": "8d52e81d86a9c625e2689998fff4a4d0",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who is known as the 'Evenstar' of her people?",
-    "answer": "Arwen",
-    "id": "22ad8c0238a6fb4a0bf7de066d6b70e3",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the horse that Gandalf rides?",
-    "answer": "Shadowfax",
-    "id": "a014a041274d748c2608655603a20a71",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who is the first bearer of the One Ring?",
-    "answer": "Sauron",
-    "id": "1cfc91dd9efd3a4aa7cf26837921af89",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the elven city in the hidden valley?",
-    "answer": "Rivendell",
-    "id": "57496ee7ffbf08ba7f764118cc6c868a",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who is the original owner of the sword Glamdring?",
-    "answer": "Turgon",
-    "id": "2335cbb93f896019e289a2b1cbc40259",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the mountain where Smaug hoards his treasure?",
-    "answer": "Lonely Mountain",
-    "id": "9d46cb7d4e6e0b36eabb1a8841e7e75f",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which city is known as the City of the Kings?",
-    "answer": "Minas Tirith",
-    "id": "6605082b34781a3dcefd94ad569abf00",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who is the Dark Lord before Sauron?",
-    "answer": "Morgoth",
-    "id": "fe1aa8e3d2a33edbd30f6c43069d2821",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who leads the elves at the Battle of Helm’s Deep?",
-    "answer": "Haldir",
-    "id": "534218a5dfa23ee029e723d8342f9ffc",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the ancient kingdom that Aragorn is heir to?",
-    "answer": "Gondor",
-    "id": "0c5d8edbd4253d6ab217af7784747a5a",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who is the elven smith who crafted the Three Rings?",
-    "answer": "Celebrimbor",
-    "id": "cde474fbb793bc7f99125dc7db7db329",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the evil fortress in Mirkwood?",
-    "answer": "Dol Guldur",
-    "id": "9a11cf6ab8c820e93aaf1b5adba10cdf",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who is the Dwarf that accompanies Bilbo on his journey in 'The Hobbit'?",
-    "answer": "Thorin Oakenshield",
-    "id": "0ace72b9fe68925a8601eefef1e50155",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which character is known as the 'Gollum'?",
-    "answer": "Sméagol",
-    "id": "98981456195516120926f750b888ca2b",
     "difficulty": "unmarked",
     "httpsource": "#"
   }
