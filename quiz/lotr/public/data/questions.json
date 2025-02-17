@@ -8,56 +8,56 @@
   },
   {
     "question": "Who is the rightful heir to the throne of Gondor?",
-    "answer": "Aragorn (son of Arathorn II, also known as Elessar Telcontar)",
+    "answer": "Aragorn II (son of Arathorn II, crowned as King Elessar Telcontar)",
     "id": "acdeef4a4a224f10dd1678a96330e3e3",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of Aragorn’s reforged sword, originally broken after the defeat of Sauron in the Second Age?",
-    "answer": "Andúril (the Flame of the West)",
-    "id": "b4650e343c904121d59cd4b7222e2e0e",
+    "question": "What is the name of Aragorn’s reforged sword?",
+    "answer": "Andúril (Flame of the West, reforged from Narsil)",
+    "id": "45dc931e66b5a31d5f2f3c1456463908",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
     "question": "Which wizard falls to the Balrog in Moria?",
-    "answer": "Gandalf the Grey (Olórin in Valinor)",
+    "answer": "Gandalf the Grey (later resurrected as Gandalf the White)",
     "id": "77f3276a6a735699e72eaa435fc0f44d",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
     "question": "Who is the ruler of Rohan during the War of the Ring?",
-    "answer": "Théoden (son of Thengel)",
+    "answer": "Théoden Ednew (son of Thengel)",
     "id": "a428600da2f7a9d395b571881f501606",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
     "question": "Which creature calls the One Ring 'my precious'?",
-    "answer": "Gollum (originally Sméagol, a Stoor Hobbit)",
+    "answer": "Gollum (born Sméagol of the Stoor Hobbits)",
     "id": "4d93517c8f32dba8f6191c9a626c641b",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Where is the One Ring forged and destroyed?",
-    "answer": "Mount Doom (Orodruin in Mordor)",
-    "id": "f146a96c05484cbdba6f1fd54144bb3a",
+    "question": "Where is the One Ring destroyed?",
+    "answer": "Mount Doom (Orodruin, in Mordor)",
+    "id": "7eac2286440b4491b2e2c85ca3d104fc",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
     "question": "Who is the Dark Lord seeking the One Ring?",
-    "answer": "Sauron (formerly Mairon, a servant of Morgoth)",
+    "answer": "Sauron (the Dark Lord of Mordor)",
     "id": "57f0f03561d68e96dbf454556d689783",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
     "question": "Which elf gives Frodo the Light of Eärendil?",
-    "answer": "Galadriel (Lady of the Wood)",
+    "answer": "Galadriel (Lady of Lothlórien)",
     "id": "36445d1836b7c9a6ffc8f185f981b34d",
     "difficulty": "unmarked",
     "httpsource": "#"
@@ -70,436 +70,947 @@
     "httpsource": "#"
   },
   {
-    "question": "Which forest is home to Tom Bombadil?",
-    "answer": "Old Forest",
-    "id": "b8595c0ef6850835fabe0d1146aa3d25",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
     "question": "Who is the steward of Gondor during the War of the Ring?",
-    "answer": "Denethor II",
+    "answer": "Denethor II (son of Ecthelion II)",
     "id": "51577300e94125fa0a60b9d874b99e1c",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
     "question": "What is the name of Samwise Gamgee’s father?",
-    "answer": "Hamfast Gamgee",
+    "answer": "Hamfast 'Ham' Gamgee (the Gaffer)",
     "id": "8c4e7e4a0eba75934045eeac25d194b3",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Which cursed blade does Merry use to injure the Witch-king?",
-    "answer": "Barrow-blade (from the Barrow-downs)",
-    "id": "0d7668595b8e075d05045801eecf49bb",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
     "question": "Who kills the Witch-king of Angmar?",
-    "answer": "Éowyn (daughter of Éomund) and Merry (Meriadoc Brandybuck)",
+    "answer": "Éowyn (daughter of Éomund) and Meriadoc 'Merry' Brandybuck",
     "id": "1990861282e0b31bdabd2b4cbf29df29",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the Elvish word for 'friend' that opens the Doors of Durin?",
-    "answer": "Mellon",
-    "id": "ad67962a46fcbf568fbf9f2e3b95c1d1",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which race created the One Ring?",
-    "answer": "Elves (under Sauron's influence)",
-    "id": "538c6178e4785bc8484cf9c2af54d999",
+    "question": "What Elvish word opens the Doors of Durin?",
+    "answer": "*Mellon* (Sindarin for ‘friend’)",
+    "id": "aa34cd3952cf48d5f787891b2dbc4896",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
     "question": "Who is Legolas’s father?",
-    "answer": "Thranduil",
+    "answer": "Thranduil (King of the Woodland Realm)",
     "id": "d4b425947011ae2c2da661a28e688eb3",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Where do the Hobbits destroy the One Ring?",
-    "answer": "Mount Doom (Orodruin in Mordor)",
-    "id": "57e72fb8eaf08497d658d1dddc65462b",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
     "question": "What is the name of Gandalf’s horse?",
-    "answer": "Shadowfax",
+    "answer": "Shadowfax (Lord of Horses)",
     "id": "847b65446926344f18c08e4c194742c9",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Which creature guides Frodo and Sam through Mordor?",
-    "answer": "Gollum (Sméagol)",
-    "id": "378670b1c466f1ed06b565287ed49028",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
     "question": "What is the symbol of Gondor’s kingship?",
-    "answer": "White Tree of Gondor",
+    "answer": "The White Tree of Gondor (Telperion’s descendant)",
     "id": "87f75197e2c75b26a7bb23b03d490145",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Who forged the Three Elven Rings without Sauron's direct influence?",
-    "answer": "Celebrimbor",
-    "id": "42aaff03bdea1ab86b4ee4ba96fafcbf",
+    "question": "Who forged the Three Elven Rings?",
+    "answer": "Celebrimbor (grandson of Fëanor, of the Noldor)",
+    "id": "ee3050c7d12c9869291aafb0776b19ad",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the original name of Gandalf’s sword, Glamdring, in the First Age?",
-    "answer": "Turgon (King of Gondolin)",
-    "id": "5eb70e6af57bfe0cdb9d3c7810fb36c3",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the Elvish name for Shelob's lair in the Ephel Dúath?",
-    "answer": "Torech Ungol",
-    "id": "6bfb3079d016d74c4b3fa1b93c4d74d8",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which Silmaril is carried by Eärendil in the sky?",
-    "answer": "The one bound to his brow by the Valar",
-    "id": "f4d4b6f2e94548da5edd8831b89101a4",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who were the parents of Gil-galad, the last High King of the Noldor?",
-    "answer": "Orodreth (per later writings)",
-    "id": "c700f151b54088ed282bafddcfcb3c3e",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the Sindarin name for the Shire?",
-    "answer": "Drann",
-    "id": "763942b03c94f73eacb0c7ae7cf373bb",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of Elrond’s brother, founder of Númenor’s royal line?",
-    "answer": "Elros",
-    "id": "8aa7853b8c7348a7b643b952bb623bd9",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which Vala is associated with dreams and visions in Valinor?",
-    "answer": "Irmo (Master of Lórien)",
-    "id": "7a600ea37abbb18b4c3a33345dcd534a",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What was the original name of the river that flowed through Moria before its blockage?",
-    "answer": "Sirannon",
-    "id": "ff5f82a62ca6c7bbf5789fa46d217101",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which Dwarf from Thorin’s company in The Hobbit is Gimli's father?",
-    "answer": "Glóin",
-    "id": "7883435db7987fd70beb982e2d38db03",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who crafted the winged helm of the King of Rohan, worn by Éomer?",
-    "answer": "None (it was an heirloom from the First Age)",
-    "id": "c1448306c5dee037f95c6121975b7b19",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the Black Speech inscription on the One Ring?",
-    "answer": "Ash nazg durbatulûk, ash nazg gimbatul…",
-    "id": "e88f15183afc0358c1f8443b4ee981e8",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which First Age battle saw the alliance of Men, Elves, and Dwarves against Morgoth?",
-    "answer": "Nirnaeth Arnoediad (Battle of Unnumbered Tears)",
-    "id": "a77b9653d7109f1c684d07b175940418",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is Gandalf’s name in Valinor, before his arrival in Middle-earth?",
-    "answer": "Olórin",
-    "id": "eedcb6786f73ff0888280aa9d66c120b",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which of the Seven Dwarf-rings was given to Durin's House?",
-    "answer": "The Ring of Thrór",
-    "id": "27531aa2972f3f462497aec4dbe8e691",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the full royal title Aragorn adopts after his coronation?",
-    "answer": "Elessar Telcontar, King of the Reunited Kingdom of Gondor and Arnor",
-    "id": "f4da750e6607c459623d931362acaabb",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Where does Saruman meet his ultimate demise in the books?",
-    "answer": "Bag End, the Shire (during the Scouring)",
-    "id": "12bc642d23ee35735d3135267c50ccdf",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the Elvish term for the constellation Men call the Big Dipper?",
-    "answer": "Valacirca (Sickle of the Valar)",
-    "id": "c96b159e3df8ff6bf192af2903092e58",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is Aragorn’s horse named, gifted to him by Arwen?",
-    "answer": "Roheryn",
-    "id": "5ba8c8891f1ecae5e129204cb41e1a03",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which city was built by Númenóreans in exile before the rise of Gondor?",
-    "answer": "Pelargir",
-    "id": "c059c388da0e8d334ac5b2685baaf6fb",
+    "question": "What is the Elvish name for Shelob's lair?",
+    "answer": "Torech Ungol (Sindarin: ‘Shelob’s Lair’)",
+    "id": "85e11e2ba26877ee5aa75cb22759c597",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
     "question": "What is the name of Aragorn’s mother?",
-    "answer": "Gilraen",
+    "answer": "Gilraen the Fair (of the Dúnedain)",
     "id": "724aa9c732da5e7b4d9bad1bdeb6a9d8",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the epithet of Fingolfin, High King of the Noldor, after his duel with Morgoth?",
-    "answer": "The Proud",
-    "id": "dc7ac5a1fd06a81a71ed6a4d5a2fda99",
+    "question": "What river flows near Moria’s eastern gate?",
+    "answer": "Sirannon (later blocked by the Watcher in the Water)",
+    "id": "06b1fc0150e00ecddfa51672d2fcd92c",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Which creature drags Oromë’s steed into the depths during the hunt for Morgoth?",
-    "answer": "Ungoliant (later Shelob's ancestor)",
-    "id": "4003b3228672fe45a95e76e289a58f26",
+    "question": "Who is Gimli's father from Thorin’s company?",
+    "answer": "Glóin (brother of Óin, son of Gróin)",
+    "id": "02422d06c210dcc29c151cd4754084d3",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of the sword that cut the One Ring from Sauron’s hand?",
-    "answer": "Narsil",
-    "id": "e1822600bd1ef0c51fdae5b2b1ccc2b3",
+    "question": "What is the Black Speech on the One Ring?",
+    "answer": "*Ash nazg durbatulûk…* (‘One Ring to rule them all…’)",
+    "id": "474feebae7ddebcfc2571867e166c546",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the name of Elwing’s fortress where she sheltered a Silmaril?",
-    "answer": "Havens of Sirion",
-    "id": "ab6d06f6e3ca0c8f53e9a8398e0ebb6e",
+    "question": "Which First Age battle was called the *Unnumbered Tears*?",
+    "answer": "Nirnaeth Arnoediad",
+    "id": "24a34914f0b7417b8de259f817bec3b3",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is Gandalf’s name in Valinor?",
+    "answer": "Olórin (of the Maiar, servant of Manwë)",
+    "id": "27c0119050d35ee3e0576b2cd3ce6209",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is Aragorn’s royal title after coronation?",
+    "answer": "King Elessar Telcontar (Reunited Kingdom of Gondor and Arnor)",
+    "id": "8328d7e8ed4d8c6a5644f39789280e9f",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
     "question": "Which Vala created the Two Trees of Valinor?",
-    "answer": "Yavanna",
+    "answer": "Yavanna (Queen of the Earth)",
     "id": "57a1f1878eb8ac11835824cd7723466f",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Who wrote The Lay of Leithian, the epic poem of Beren and Lúthien?",
-    "answer": "Thingol (commissioned by him)",
-    "id": "271999797ad670375cfc9cb589641cad",
+    "question": "What sword cut the One Ring from Sauron’s hand?",
+    "answer": "Narsil (forged by Telchar of Nogrod)",
+    "id": "5362d903091bb30236368f707e7a8958",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the Quenya term for the 'Doom of the Noldor'?",
-    "answer": "Fëanor's Oath (Moringotto’s Curse)",
-    "id": "d2a30aca457ff1b0a10f51bada03ba44",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which of Fëanor’s sons repented and refused to attack Eonwë at the War of Wrath?",
-    "answer": "Amrod and Amras (debated)",
-    "id": "42c12a6b2ef38b450997e845c2af9202",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the Sindarin name for the Great Bear constellation?",
-    "answer": "Menelvagor (Swordsman of the Sky)",
-    "id": "fc312c16df0e21a135cf23b1e0d00ea3",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who slew Glaurung, the Father of Dragons?",
-    "answer": "Túrin Turambar",
-    "id": "8e03fe56e6f1b4fd275a926336b43972",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What was the Elessar stone’s original creator before Gandalf gifted it to Aragorn?",
-    "answer": "Celebrimbor (or Enerdhil, per alternate lore)",
-    "id": "3463551568e45b5e4f536893b1fb1742",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which Númenórean king sailed to Aman to challenge the Ban of the Valar?",
-    "answer": "Ar-Pharazôn the Golden",
-    "id": "d8ed9a9546298de0441cff476e95ffd4",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Whose spirit haunted the Dead Marshes after the Battle of Dagorlad?",
-    "answer": "Elendil’s soldiers and Sauron’s forces (unquiet dead)",
-    "id": "4ded55ee55d945391e5e7f72cf4a8457",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the Annatar persona of Sauron forbidden by Gil-galad?",
-    "answer": "Lord of Gifts (used to deceive Celebrimbor)",
-    "id": "62629e72f010f5c9043afc57d695f450",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which Elf-lord invented the Tengwar script?",
-    "answer": "Fëanor",
-    "id": "3a602a705f96364f45418db925d122d6",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What was the final fate of Morgoth after the War of Wrath?",
-    "answer": "Cast into the Void through the Door of Night",
-    "id": "52719dbfd601e2ed5f8ac2f1236d5a03",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of Aragorn’s broken blade before it is reforged as Andúril?",
-    "answer": "Narsil",
-    "id": "09b741cdd046cf6f6b15400eb5c2335a",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which of the Nine Ringwraiths was a Númenórean king?",
-    "answer": "None (Khamûl the Easterling was not Númenórean)",
-    "id": "eb756babef1d5d938198b6471eb14b69",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who prophecies that the Witch-king ‘will not die by the hand of man’?",
-    "answer": "Glorfindel",
-    "id": "93343b24ed02418c111b8e104f2150f0",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the Quenya term for the gift of mortality given to Men?",
-    "answer": "Fëa hröa (Hröa)",
-    "id": "752eae65405669a980e1db74bf352e1c",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Which mountain pass did Morgoth’s forces use to invade Beleriand?",
-    "answer": "Pass of Aglon",
-    "id": "bc15586619e2b3bf8df4bad5dec03f95",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "What is the name of the sword reforged from Anglachel?",
-    "answer": "Gurthang (wielded by Túrin)",
-    "id": "23dc539d08993d2e1f0688f72a664c79",
-    "difficulty": "unmarked",
-    "httpsource": "#"
-  },
-  {
-    "question": "Who destroyed the One Ring in the first version of Tolkien’s legendarium?",
-    "answer": "Gollum (in early drafts, before Frodo was created)",
-    "id": "c3e771d262fd6e0eba9d36a60093afbc",
+    "question": "Who crafted the Tengwar script?",
+    "answer": "Fëanor (greatest smith of the Noldor)",
+    "id": "59287b6447c7387b4ba43e7ff1249200",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
     "question": "What is the Dwarvish name for the Lonely Mountain?",
-    "answer": "Erebor",
+    "answer": "Erebor (Kingdom under the Mountain)",
     "id": "4fd1e5421b81a84bed6cbf70bd1fb95e",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Which Vala is responsible for the creation of Orcs?",
-    "answer": "None (they were corrupted Elves/creations of Morgoth)",
-    "id": "c05a5ee19f9f89d75f7dd9fabfcf04cd",
+    "question": "Who originally destroyed the Ring in Tolkien’s drafts?",
+    "answer": "Gollum (in early manuscripts)",
+    "id": "18728304402dd8dc55eb3d431cfd743b",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "What is the Ainulindalë?",
-    "answer": "The Music of the Ainur (creation myth)",
-    "id": "b8773a8342356111a637e5e318ab8582",
+    "question": "What is the Music of the Ainur called?",
+    "answer": "Ainulindalë (Creation Myth of Middle-earth)",
+    "id": "666ad64e337b7cd94242f62ff582f12d",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Who is the Steward of Gondor before Denethor II?",
-    "answer": "Ecthelion II",
-    "id": "02629c5d36ce8fe4638102e41f2417b7",
+    "question": "Which Vala is Morgoth’s enemy and Lord of Waters?",
+    "answer": "Ulmo (Lord of the Seas)",
+    "id": "e6e989a65ffa0fc8cadfa1cd9b19a8e9",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Which river separated Rohan and Gondor?",
-    "answer": "The Mering Stream",
-    "id": "34e18454cc2ef13b41f1871a9bfa6974",
+    "question": "Who is the oldest living Ent?",
+    "answer": "Treebeard (Fangorn, Guardian of Fangorn Forest)",
+    "id": "598b8725a8db91cec77ae3502465f506",
     "difficulty": "unmarked",
     "httpsource": "#"
   },
   {
-    "question": "Who guards the final Ring of Power given to Tom Bombadil?",
-    "answer": "None (he is unaffected by it)",
-    "id": "acd15f6decfd7b84ebbf84899ea6e4c6",
+    "question": "Which Elf survived death twice and fought a Balrog?",
+    "answer": "Glorfindel (rescued Frodo in *Fellowship*)",
+    "id": "db4cb34b7da1adcf3a324ad8aa58e5c2",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Where is the Arkenstone hidden?",
+    "answer": "Lonely Mountain (treasury of King Thrór)",
+    "id": "135710543dcbef89283e3cf6ec2374de",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the Vala of dreams in Valinor?",
+    "answer": "Irmo (Lord of Lórien, Master of Visions)",
+    "id": "9c53aabb94c12dbf68bd9ea14e5a4eaa",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which cursed sword does Túrin Turambar wield?",
+    "answer": "Gurthang (Iron of Death, reforged from Anglachel)",
+    "id": "bbb9f4b1cd288048f9e46d8d2511d6b7",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the Quenya name for the Undying Lands?",
+    "answer": "Aman (Blessed Realm)",
+    "id": "053fd159d2ed3c51b56af34b7961628b",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who leads the Great Eagles?",
+    "answer": "Gwaihir (the Windlord)",
+    "id": "1684d95fea6e842099a654c422637522",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who wore the Silmaril recovered by Beren?",
+    "answer": "Lúthien Tinúviel (Elven-maiden of Doriath)",
+    "id": "9c52a7273bec2443744fae87053ccc8a",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What was Minas Tirith’s original name?",
+    "answer": "Minas Anor (Tower of the Sun)",
+    "id": "1511c0551fa5a99a527ffb0042da6ec1",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who defies Sauron by refusing to reveal the One Ring?",
+    "answer": "Celebrimbor (Lord of Eregion)",
+    "id": "957dd870767ad5c7f1d6ad1a0a6138d2",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is Frodo’s Elvish sword called?",
+    "answer": "Sting (forged in Gondolin)",
+    "id": "60324612ed048abff1f9cdc79a87ba99",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is Morgoth’s lieutenant in the First Age?",
+    "answer": "Sauron (Gorthaur the Cruel)",
+    "id": "ddc9e60f4a9e2309db3f94106a3977a1",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which race tends Fangorn Forest?",
+    "answer": "Ents (Shepherds of the Trees)",
+    "id": "e12e26144355974494d8ef5764a495f0",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What language is spoken in the Shire?",
+    "answer": "Westron (Common Speech)",
+    "id": "8742ea82a9c1e4c8815c1c53419da1f0",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which named female Dwarf exists in Tolkien’s works?",
+    "answer": "Dís (sister of Thorin Oakenshield)",
+    "id": "72e3086ee9b16a50497de01a67cd3a54",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Where is Galadriel’s Mirror located?",
+    "answer": "Caras Galadhon (heart of Lothlórien)",
+    "id": "596874e5c35a2174f18b44bd5152625a",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is Sauron’s fortress called?",
+    "answer": "Barad-dûr (Dark Tower of Mordor)",
+    "id": "b1a2214005a18c5fba3dfd8b951c3cec",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who says ‘Fly, you fools!’ in Moria?",
+    "answer": "Gandalf the Grey (to the Fellowship)",
+    "id": "4fea12e459afa0cf0fac7fe2e6b93cdc",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the term for Elven immortality?",
+    "answer": "*Fëa* (indestructible spirit)",
+    "id": "8d24b9e08d6d650b45f8bb54dceefcd6",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who first corrupted Elves into Orcs?",
+    "answer": "Morgoth (Melkor, via torture)",
+    "id": "018f678b26b54d36b9d9d5562c0d4e17",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which stone preserves the light of Eärendil’s star?",
+    "answer": "Phial of Galadriel (filled with *gilith*)",
+    "id": "99d3b37062e4ecc063bc261c0dd127bb",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who invented the Palantíri?",
+    "answer": "Fëanor (or the Númenóreans)",
+    "id": "b8810ccaa855b2ff221304208b8e10d3",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which city is Isildur’s ancestral home?",
+    "answer": "Númenor (before its fall)",
+    "id": "2ae8537ae4eea15a6cdcc6cd63846388",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is Gandalf’s Elvish name?",
+    "answer": "Mithrandir (‘Grey Pilgrim’)",
+    "id": "1b466d958a8468fda0125ace443e5eb3",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the mother of Elrond and Elros?",
+    "answer": "Elwing (of the House of Dior)",
+    "id": "ec6e213b942cefe60e8ce4d1e2fae54c",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which creature traps the Fellowship in Moria?",
+    "answer": "Watcher in the Water (Kraken-like being)",
+    "id": "f1384fdd1ed93ae4b94d7a11345633d8",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the name of Bilbo Baggins’ sword?",
+    "answer": "Sting (forged in Gondolin)",
+    "id": "c244e0da89836fad6605367db4dcf8a8",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the Elvenking of Mirkwood in *The Hobbit*?",
+    "answer": "Thranduil (father of Legolas)",
+    "id": "526cc2e70eb2fa3cf31688f5f163074d",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What dragon does Bard the Bowman slay?",
+    "answer": "Smaug the Golden (last Great Dragon)",
+    "id": "dda896a1fd567d69537f7d2a60224754",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is Arwen’s father?",
+    "answer": "Elrond Half-elven (Lord of Rivendell)",
+    "id": "9051fd711425861456869cee8935cb52",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which forest is home to Tom Bombadil?",
+    "answer": "Old Forest (near the Shire)",
+    "id": "b8595c0ef6850835fabe0d1146aa3d25",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What beverage do Ents serve Merry and Pippin?",
+    "answer": "Ent-draught (revitalizing drink)",
+    "id": "ae2d35a1fb17041a755f9331ac3b48bc",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which Vala is lord of forests and hunting?",
+    "answer": "Oromë (the Huntsman of the Valar)",
+    "id": "e69691c90edda5476ad1af453aa66a83",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is Túrin Turambar’s ill-fated sister?",
+    "answer": "Niënor Níniel (‘Mourning Maid’)",
+    "id": "d5ca17c26b182e9f62b1dd9379417448",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who originally possessed the Ring of Thrór?",
+    "answer": "Thrór (King of Durin’s Folk)",
+    "id": "fb14f168d8f0357879d91bc57e211771",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who crafted the Silmarils?",
+    "answer": "Fëanor (greatest of the Noldor)",
+    "id": "79fa43745559c8593a630e530b695ddf",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the mother of Fëanor?",
+    "answer": "Míriel Þerindë (first wife of Finwë)",
+    "id": "b23a09452bd0b2b1710359a41b59a4d1",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is Elrond’s brother’s name?",
+    "answer": "Elros Tar-Minyatur (first King of Númenor)",
+    "id": "92b9923ee862d4327bfd6dad49dbcd47",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is Galadriel’s father?",
+    "answer": "Finarfin (brother of Fëanor and Fingolfin)",
+    "id": "e58f5eb3a20517a7b978f5495b137cdb",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which necklace held the Silmaril in Doriath?",
+    "answer": "Nauglamír (crafted by Dwarves)",
+    "id": "07b7d287f3456f37d9e0fba8e332a32e",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the native tongue of Rohan’s people?",
+    "answer": "Rohirric (related to Old English)",
+    "id": "90e62ec21acc56bc5612c857c1c0d0da",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What does ‘Legolas’ mean in Sindarin?",
+    "answer": "‘Greenleaf’",
+    "id": "bf15ce40a396f89a0a5f65d56bc53269",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Where do Bilbo and the Dwarves meet Elrond?",
+    "answer": "Rivendell (Imladris)",
+    "id": "8f055e773abdb3e0be54a0d0d8f8a802",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Where are the Púkel-men statues located?",
+    "answer": "Dunharrow (path to the Dead Men)",
+    "id": "fe71df6083232e785c007bf3973cc6c0",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What are Sauron’s wolf-like servants called?",
+    "answer": "Wargs",
+    "id": "8ea54813ee65153e729539bb07bcc13d",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the Lord of the Eagles?",
+    "answer": "Gwaihir the Windlord",
+    "id": "4ee15f0358c2865bf8341c95a03b34af",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who was High King of the Noldor after Fëanor?",
+    "answer": "Fingolfin (challenged Morgoth to single combat)",
+    "id": "a43010ccaa6f5e7384c5110137c2191a",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What sword does Túrin wield against Glaurung?",
+    "answer": "Gurthang (‘Iron of Death’)",
+    "id": "c8a83a20b5b0af573a70e1bd4c9b8151",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What ended Morgoth’s reign in the First Age?",
+    "answer": "War of Wrath (host of Valinor vs. Morgoth)",
+    "id": "0909326d3f3ae74c7ebf8e906fc3dad0",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is Morgoth’s original name?",
+    "answer": "Melkor (the first Dark Lord)",
+    "id": "d530878cc821853b73edf6bd620617a4",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who first tamed the Oliphaunts of Harad?",
+    "answer": "Southrons (Haradrim)",
+    "id": "14610f7c55aec0f1e783ce109eb0b562",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which Dwarf survives the Battle of the Five Armies?",
+    "answer": "Thorin Oakenshield (dies later from wounds)",
+    "id": "d29655c1623a87743eb88cdf3c314fb3",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Where is the Star of the Dúnedain kept?",
+    "answer": "Elendilmir (worn by Aragorn)",
+    "id": "8dd70f66f659c97ca01a27d2119e00c0",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is Gandalf’s original Maiar name?",
+    "answer": "Olórin (servant of Manwë and Varda)",
+    "id": "a8d78204878081a8798c41a35c780daf",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who cursed the Dead Men of Dunharrow?",
+    "answer": "Isildur (for betraying him)",
+    "id": "aed1c081a9ffdbbae4e4251ad189ee4d",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the name of Shelob’s offspring?",
+    "answer": "Ungoliant (her ancestor in the First Age)",
+    "id": "9fddd66f9d0fec5b77f3866a230fccf3",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What realm does Celeborn rule after the War?",
+    "answer": "East Lórien (or Laurelindórenan)",
+    "id": "ce62ab55034e1743af3fa94d1f24fd99",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who sings the *Song of Eärendil* in Rivendell?",
+    "answer": "Bilbo Baggins (at the Council of Elrond)",
+    "id": "6402ab0bd05f71aa488f32f673f8a616",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which mortal man marries an Elf?",
+    "answer": "Beren (husband of Lúthien)",
+    "id": "390e396ff97265329b8e9c980ef6f019",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who reforges Narsil into Andúril?",
+    "answer": "Elven-smiths of Rivendell",
+    "id": "85b1bb3341795e6feee76f49f52b0080",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the Elvish name for Fangorn Forest?",
+    "answer": "Entshu (rendered as ‘Entwood’)",
+    "id": "4db189c3acb981b7646dfa621ff13374",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What term refers to Elven immortality?",
+    "answer": "Undying (only their *fëar* persist)",
+    "id": "444dfa91c3215f89445eb01547744f23",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is Tom Bombadil’s wife?",
+    "answer": "Goldberry (River-daughter)",
+    "id": "78e0df594e04331e1933768f32f836f6",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which wizard is the master of animals and birds?",
+    "answer": "Radagast the Brown (Aiwendil, of the Maiar)",
+    "id": "7fe6388fed0cd52df7ef16c10b505b0c",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which island kingdom do Aragorn and the Dead Men conquer?",
+    "answer": "Umbar (bastion of the Corsairs)",
+    "id": "769912139922b1d71c96d610743c7b8c",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who leads Aragorn’s Rangers of the North?",
+    "answer": "Halbarad (standard-bearer of the Dúnedain)",
+    "id": "8570de7c4a1066931792d9ea87e3fc1a",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the Witch-king’s master?",
+    "answer": "Sauron (lord of the Nazgûl)",
+    "id": "530853d46d6be74631e5a53e2b363366",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the origin of Merry’s sword?",
+    "answer": "Barrow-blade (forged by Westernesse to fight Angmar)",
+    "id": "09f6c8671169af5500678f3d3dec7708",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What does ‘Legolas’ mean in Elvish?",
+    "answer": "‘Greenleaf’ (Sindarin dialect)",
+    "id": "4d3ef0888968bfd9b1b382419e10131e",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is Denethor II’s youngest son?",
+    "answer": "Faramir (Captain of Gondor)",
+    "id": "7b2b79a3f563abfe94bbe9d3c3d68828",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which Elven ring does Círdan surrender to Gandalf?",
+    "answer": "Narya the Great (Ring of Fire)",
+    "id": "e295d9679085b2d1d36839b3f2aad262",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the name of the inn in Bree?",
+    "answer": "The Prancing Pony (run by Barliman Butterbur)",
+    "id": "fa253b95845f6b39bc7181a58bfa84bb",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What creature ambushes the Fellowship at Moria’s gate?",
+    "answer": "Watcher in the Water (unknown kraken-like being)",
+    "id": "25ad1c662fa275adae9ba8acd813f6ce",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Where do the Entwives vanish?",
+    "answer": "The Brown Lands (destroyed by Sauron)",
+    "id": "483f951b14b447ea93c1d8c56230623b",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who leads the Hobbits in retaking the Shire?",
+    "answer": "Meriadoc ‘Merry’ Brandybuck and Peregrin ‘Pippin’ Took",
+    "id": "21059ab8fe1f68c566958fe694e5563d",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is Shelob’s ancient ancestor?",
+    "answer": "Ungoliant (giant spider of the First Age)",
+    "id": "aea27b163ac54ec3986a5702dd22809e",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the Quenya word for ‘star’?",
+    "answer": "*Elen* (plural: *Eleni*)",
+    "id": "be152433858341c0c10674719387af15",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which king erected the Argonath statues?",
+    "answer": "Rómendacil II (to mark Gondor’s northern border)",
+    "id": "76bbae97b037bb67a24da8115f060f9a",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who becomes Faramir’s wife after the War of the Ring?",
+    "answer": "Éowyn (Shieldmaiden of Rohan)",
+    "id": "a538a46742a2b51279ccb378d3f2b66d",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What healing herb does Aragorn use on Frodo?",
+    "answer": "Athelas (Kingsfoil)",
+    "id": "39c4ebb538910b64d8cb76b8a35a0698",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who recognizes Aragorn’s use of Athelas in Minas Tirith?",
+    "answer": "Ioreth (wise-woman of the Houses of Healing)",
+    "id": "e73ab3c7e4d554726db523770debf333",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the tallest tower in Minas Tirith?",
+    "answer": "The White Tower (Tower of Ecthelion)",
+    "id": "9a5f882ca192d2436cc9e6105fd13691",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Whose stone trolls does Sam encounter in *The Two Towers*?",
+    "answer": "Tom, Bert, and William (from Bilbo’s adventure)",
+    "id": "76b77ce7838dc7c3f4d4961287ec90ad",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which Dwarf becomes King under the Mountain after Thorin?",
+    "answer": "Dáin II Ironfoot (Lord of the Iron Hills)",
+    "id": "fee515b756d9eac36fa761dc9321ae5e",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the fate of the Entwives?",
+    "answer": "Lost; likely destroyed in Sauron’s wars",
+    "id": "07bd61ab5140569e022e645949a73e2f",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the first Númenórean king to rebel against the Valar?",
+    "answer": "Ar-Pharazôn the Golden (last King of Númenor)",
+    "id": "2ea73c0eb822924f3434a91d683d9964",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which Dwarven king wears the Ring of Thrór?",
+    "answer": "Thrór (ancestor of Thorin Oakenshield)",
+    "id": "d7b5f02841ea060b9afb8714393568c9",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who are the two Blue Wizards?",
+    "answer": "Alatar and Pallando (Ithryn Luin, sent to Rhûn)",
+    "id": "2ac2b4b631913e796f0c3f8bbc87134d",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the name of Aragorn and Arwen’s son?",
+    "answer": "Eldarion Telcontar (heir to the Reunited Kingdom)",
+    "id": "b365cd8c445b9f9c710788560b1e4aed",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which Númenórean king cursed the Men of the White Mountains?",
+    "answer": "Isildur (curse lifted by Aragorn)",
+    "id": "93ea069796f0e62655856c018316e153",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who accidentally causes King Thingol’s death?",
+    "answer": "Dwarves of Nogrod (over the Nauglamír)",
+    "id": "27fe741a286b49f1f40fa26d35715ca6",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the Sindarin word for ‘hope’?",
+    "answer": "*Estel* (used as Aragorn’s childhood name)",
+    "id": "ec3efd9cf6b865395d0ca35cc30484d5",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which Vala oversees the Halls of the Dead?",
+    "answer": "Námo (Mandos, Judge of the Dead)",
+    "id": "ca31e6da1964e0d8e707f8403ecf1f47",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What river marks the Shire’s eastern border?",
+    "answer": "Brandywine (Baranduin, ‘Brown River’)",
+    "id": "d3c80bc31eb6bbd36f809cee0784b73c",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who leads the Wild Men of Druadan Forest?",
+    "answer": "Ghân-buri-Ghân (chieftain of the Druedain)",
+    "id": "3796ae4aad5f792517cce4ca95e3dfb4",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which House of Men does Aragorn descend from?",
+    "answer": "House of Isildur (Line of Elendil)",
+    "id": "7a33b99e5e7aa2a3273ac9e8b316b310",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What happens to Saruman’s Ring of Power?",
+    "answer": "Destroyed with his death (or rendered inert)",
+    "id": "1098a9ad1333be55185a4b0663e08834",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the mother of Elrond and Elros?",
+    "answer": "Elwing (daughter of Dior Eluchíl)",
+    "id": "ec6e213b942cefe60e8ce4d1e2fae54c",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which Elf crafted the Elessar stone?",
+    "answer": "Celebrimbor (or Enerdhil, per legend)",
+    "id": "fac941402f1168d89e28c03eefde5443",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What was Morgoth’s First Age fortress?",
+    "answer": "Angband (beneath Thangorodrim)",
+    "id": "3359d3825aeb80eae64b69fc77a39baf",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who composed the *Lay of Leithian*?",
+    "answer": "Daeron (minstrel of Doriath)",
+    "id": "9476ae78176ac7a8c978a34fd6973c33",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is Sauron’s werewolf commander called?",
+    "answer": "Draugluin (ancestor of werewolves)",
+    "id": "af0074b18673703ed4799f72ad1af5e7",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which Dwarf refuses to reclaim Moria after Balin’s death?",
+    "answer": "Dáin II Ironfoot (King under the Mountain)",
+    "id": "3a6de2e705d1e6043178d4f5f15ec15f",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What became of the Entwives?",
+    "answer": "Lost; gardens destroyed in the War of the Last Alliance",
+    "id": "f4b0d275975adc10ab61c3186e7b2848",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the Vala of the seas?",
+    "answer": "Ulmo (Lord of Waters)",
+    "id": "c3a441ca287e7b88dcbbfeca48b6d406",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is Gandalf’s First Age sword called?",
+    "answer": "Glamdring (Foe-hammer, wielded by Turgon)",
+    "id": "8bddbf9f90b87b9cbe358e9826a5ff85",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which Hobbit becomes Thain of the Shire post-War?",
+    "answer": "Peregrin ‘Pippin’ Took (32nd Thain)",
+    "id": "7de05e75cc5b5cb984ddb59cf585804b",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who forged the Dragon-helm of Dor-lómin?",
+    "answer": "Telchar of Nogrod (Dwarven smith)",
+    "id": "282514216f60deaf4d3ab886b9290fb8",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "What is the Elvish term for the Misty Mountains?",
+    "answer": "Hithaeglir (‘Line of Misty Peaks’)",
+    "id": "9abe46253c03b8403bc76f626315aef7",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Which Elf drives off the Nazgûl at the Ford of Bruinen?",
+    "answer": "Glorfindel (Lord of the House of the Golden Flower)",
+    "id": "5f86c7492134dd4aa376ebf220f078d7",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Where did Durin I establish his kingdom?",
+    "answer": "Khazad-dûm (Moria, ‘Black Chasm’)",
+    "id": "5bd70a68ad901305bebf7d6901b8c62e",
+    "difficulty": "unmarked",
+    "httpsource": "#"
+  },
+  {
+    "question": "Who is the eldest Father of the Dwarves?",
+    "answer": "Durin the Deathless (awakens at Mount Gundabad)",
+    "id": "a131eee8129ddf7d6c4a47ef99d35814",
     "difficulty": "unmarked",
     "httpsource": "#"
   }

@@ -310,10 +310,10 @@ body {
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   z-index: 1;
-  opacity: 0; /* Hide by default */
-  transition: opacity 0.3s ease; /* Smooth transition */
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .quiz-box:hover .audio-support-overlay {
-  opacity: 1; /* Show on hover */
+  opacity: 1;
 }
